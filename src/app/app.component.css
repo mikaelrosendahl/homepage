@@ -1,12 +1,10 @@
-aheader {
+header {
 	background-color: grey;
 }
-
 
 body{
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-
 
 input, textarea{
 	font-size: 18px;
