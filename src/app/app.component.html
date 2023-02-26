@@ -1,1 +1,128 @@
-<h1>The Explorer</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>OurHomepage</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html> -->
+
+
+
+<!-- Note: A Div takes up as much horisontalspace as possible and as little hight as the content as needed. -->
+<!-- låda för sidhuvud --> 
+<!-- sidtitel/huvudrubrik -->
+<!--Login div-->
+<div id="loginForm">
+	<div id="loginToggle">Logga in</div>
+	<form class="popup-form">
+		<div>
+			<label>Username</label>
+			<input />
+		</div>
+		<div>
+			<label>Password</label>
+			<input />
+		</div>
+		<div>
+			<input type="checkbox" />
+			<label>Remember Me</label>
+		</div>
+		<div>
+			<input type="submit" value="Login" />
+		</div>
+	</form>
+</div>
+       
+<!-- knappar till länkar -->
+<nav class="navbar navbar-dark bg-dark navbar-expand-md">
+	<h1 class="navbar-brand"><i class="fas fa-book-reader"></i> Bokshopen</h1>
+	<button class="navbar-toggler" data-toggle="collapse" data-target="#theMenu">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div id="theMenu" class="navbar-collapse collapse">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" asp-controller="App" asp-action="Books">Våra böcker</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" asp-controller="App" asp-action="News">Nyheter</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" asp-controller="App" asp-action="EBooks">E-böcker</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" asp-controller="App" asp-action="AudioBooks">Ljudböcker</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" asp-controller="App" asp-action="Contact">Kontakt</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" asp-controller="App" asp-action="Shop">Shop</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<div class="row">
+	<div class="col-md-9">
+	
+		<!-- Låda för presentationsdelen -->
+		<div id="förstasida">
+
+			<!-- låda för brödtext -->
+			<div id="brödtext">
+
+				<!-- Textavsnitt samt huvudrubrik -->
+				<h3>Julklappstips för hela familjen!</h3>
+				<p> <img src="~/img/elon_musk.jpeg" style="float: left; margin: 0px 15px 15px 15px;" alt="elon_musk" width="246" height="254"></p>
+
+				<!-- Andra stycket -->
+				<h3>add title</h3>
+				<p>
+					Han har jämförts med såväl Thomas Edison som Steve Jobs. Men Elon Musk
+					saknar motstycke: han vill att människor ska kunna leva på Mars,<br>
+					han vill att vi ska köra bilar vars enda drivmedel är solenergi,
+					han drivs av en vision lika överdådig och kittlande som en science-fiction fantasi.
+                </p>
+				<p>
+					För företagsledaren och miljardären Musk handlar det om mer än en fantasi.
+					Med företag som Tesla Motors, SpaceX, PayPal och SolarCity<br> har han sänt chockvågor genom
+					affärs- och industrivärlden. I sin hyllade biografi berättar Ashlee Vance om Elon Musks
+					dramatiska liv och <br> om hur hans häpnadsväckande visioner formar vår tid. "Han gör vad han vill
+					det är Elons värld och resten av oss lever i den."
+				</p>
+				<p>
+					"Efter de sista sidorna kommer ingen läsare vilja jämföra honom med Steve Jobs. Ge Musk erkännande.
+					Det finns ingen som han." <br>
+					The New York Times
+				</p>
+				<p>
+					"Vance tecknar en oförglömlig bild av Musks unika personlighet, outsinnliga drivkraft och
+					förmåga att växa genom stora utmaningar." <br>
+					The Washington Post
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<p>This is bootstrap class col-md-3</p>
+		<div class="product-info">
+			<img src="~/img/sapiens-en-kort-historik-over-manskligheten_haftad.jpeg" />
+			<h3>Sapiens</h3>
+			<h6> En kort historik över mänskligheten</h6>
+			<ul class="product-props">
+				<li>Pris: 89.00 kr</li>
+				<li>Författare: Yoval Noah Harari</li>
+				<li>Titel: Sapiens</li>
+				<li>Beskrivning: </li>
+			</ul>
+			<button id="Köpbutton" class="btn btn-success">Köp</button>
+		</div>
+	</div>
+</div>
