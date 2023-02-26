@@ -1,4 +1,4 @@
-header {
+/* header {
 	background-color: grey;
 }
 
@@ -22,7 +22,7 @@ label{
 }
 
 /* Login Toggle */
-#loginToggle {
+/* #loginToggle {
 	cursor: pointer;
 }
 
@@ -47,20 +47,20 @@ label{
 
 .nav-item {
 	text-align: center; 
-}
+} */
 
 /* Unsortedlist */
-ul.product-props {
+/* ul.product-props {
 	font-size: small;
-}
+} */
 
 /* Product list */
- ul.product-props li {
+ /* ul.product-props li {
 	list-style-type: none;
-}
+} */
 
 /* Product-info */
-.product-info {
+/* .product-info {
 	border: 1px solid grey;
 	display: inline-block;
 	padding: 5px;
@@ -73,21 +73,21 @@ ul.product-props {
 	float: left;
 	border: 1px solid black;
 	max-width: 150px;
-}
+} */
 
 /* Contact View */
-#contactForm {
+/* #contactForm {
 }
 
 #contactForm input[type=submit]{
 
-}
+} */
 
 
 /* Contact View, submitbtn */
-input[type=submit] {
+/* input[type=submit] {
 	width: auto;
-} 
+}   */
 
 
 
