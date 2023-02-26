@@ -1,4 +1,4 @@
-/* aheader {
+header {
 	background-color: grey;
 }
 
@@ -76,18 +76,18 @@ ul.product-props {
 }
 
 /* Contact View */
-/* #contactForm {
+#contactForm {
 }
 
 #contactForm input[type=submit]{
 
-} */
+}
 
 
 /* Contact View, submitbtn */
-/* input[type=submit] {
+input[type=submit] {
 	width: auto;
-}   */
+} 
 
 
 
