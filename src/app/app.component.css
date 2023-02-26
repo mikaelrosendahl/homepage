@@ -1,12 +1,10 @@
-/* aheader {
+header {
 	background-color: grey;
 }
-
 
 body{
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-
 
 input, textarea{
 	font-size: 18px;
@@ -76,18 +74,18 @@ ul.product-props {
 }
 
 /* Contact View */
-/* #contactForm {
+#contactForm {
 }
 
 #contactForm input[type=submit]{
 
-} */
+} 
 
 
-/* Contact View, submitbtn */
-/* input[type=submit] {
+Contact View, submitbtn 
+ input[type=submit] {
 	width: auto;
-}   */
+}  
 
 
 

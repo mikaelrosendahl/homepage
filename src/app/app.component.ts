@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   
   templateUrl: './app.component.html',
-  styleUrls: ['./css/styling.css']
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'Homepage';
