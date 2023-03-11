@@ -5,8 +5,8 @@ import { Component } from '@angular/core';
   /*css selector*/
   selector: 'app-root',
   
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: './app.component.html',
+
 })
 export class AppComponent {
   title = 'Homepage';
