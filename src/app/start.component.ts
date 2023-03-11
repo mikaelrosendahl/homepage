@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
 
   selector: 'app-root',
 
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './start.component.html',
+  styleUrls: ['./start.component.css']
 })
 
 export class StartComponent {

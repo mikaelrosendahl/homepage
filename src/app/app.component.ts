@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   /*css selector*/
   selector: 'app-root',
   
-  template: './app.component.html',
+  templateUrl: './start.component.html',
 
 })
 export class AppComponent {
