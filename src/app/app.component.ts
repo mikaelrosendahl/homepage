@@ -4,8 +4,7 @@ import { Component } from '@angular/core';
 @Component({
 
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  
+  template: '<app-start></app-start>'
 })
 export class AppComponent {
   title = 'Exploration';
