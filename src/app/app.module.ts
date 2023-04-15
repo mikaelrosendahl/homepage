@@ -7,6 +7,7 @@ import { HomeComponent } from './home.component';
 import { AboutComponent } from './about.component';
 import { CoursesComponent } from './courses.component';
 import { ContactComponent } from './contact.component';
+import { PageNotFoundComponent } from './pagenotfound.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { ContactComponent } from './contact.component';
     HomeComponent,
     AboutComponent,
     CoursesComponent,
-    ContactComponent
+    ContactComponent,
+    PageNotFoundComponent
 
   ],
   imports: [
