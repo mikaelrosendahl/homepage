@@ -11,6 +11,7 @@ const routes: Routes = [
   { path: 'about.component', component: AboutComponent },
   { path: 'courses.component', component: CoursesComponent },
   { path: 'contact.component', component: ContactComponent },
+  { path: '',   redirectTo: '/home.component', pathMatch: 'full' }, // Redirect to homecomponent
   { path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page
 
 ];
