@@ -5,13 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StartComponent } from './start.component';
 import { AboutComponent } from './about.component';
+import { CoursesComponent } from './courses.component';
+import { ContactComponent } from './contact.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     StartComponent,
-    AboutComponent
+    AboutComponent,
+    CoursesComponent,
+    ContactComponent
 
   ],
   imports: [
