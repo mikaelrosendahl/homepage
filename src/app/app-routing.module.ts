@@ -7,16 +7,16 @@ import { ContactComponent } from './contact.component';
 import { PageNotFoundComponent } from './pagenotfound.component';
 
 const routes: Routes = [
-  { path: 'home.component', title: 'Homepage', component: HomeComponent },
-  { path: 'about.component', title: 'Aboutpage', component: AboutComponent },
-  { path: 'courses.component', title: 'Coursespage', component: CoursesComponent },
-  { path: 'contact.component',  title: 'Contactpage', component: ContactComponent },
-  { path: '',   redirectTo: '/home.component', pathMatch: 'full' }, // Redirect to homecomponent
+  { path: '',   redirectTo: '/home', pathMatch: 'full' }, // Redirect to homecomponent
+  { path: 'home', title: 'Homepage', component: HomeComponent },
+  { path: 'about', title: 'Aboutpage', component: AboutComponent },
+  { path: 'courses', title: 'Coursespage', component: CoursesComponent },
+  { path: 'contact ',  title: 'Contactpage', component: ContactComponent },
   { path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page
 
 ];
 
-@NgModule({
+ @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
