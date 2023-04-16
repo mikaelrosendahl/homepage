@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: 'home', title: 'Homepage', component: HomeComponent },
   { path: 'about', title: 'Aboutpage', component: AboutComponent },
   { path: 'courses', title: 'Coursespage', component: CoursesComponent },
-  { path: 'contact ',  title: 'Contactpage', component: ContactComponent },
+  { path: 'contact',  title: 'Contactpage', component: ContactComponent },
   { path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page
 
 ];
