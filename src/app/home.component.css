@@ -1,4 +1,4 @@
-header {
+ header {
 	background-color: grey;
 }
 
@@ -6,20 +6,10 @@ body{
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-input, textarea{
-	font-size: 18px;
-	width: 200px;
-}
-
 label{
 	font-size: 16px
 }
 
-#loginForm {
-	text-align: right;
-}
-
-/* Login Toggle */
 #loginToggle {
 	cursor: pointer;
 }
@@ -57,7 +47,7 @@ ul.course-props {
 	list-style-type: none;
 }
 
-/* Product-info */
+ /* Product-info */
 .course-info {
 	border: 1px solid grey;
 	display: inline-block;
@@ -73,19 +63,9 @@ ul.course-props {
 	max-width: 150px;
 }
 
-/* Contact View */
-#contactForm {
-}
-
-#contactForm input[type=submit]{
-
-} 
-
-
-Contact View, submitbtn 
- input[type=submit] {
-	width: auto;
-}  
 
 
 
+
+
+ 
