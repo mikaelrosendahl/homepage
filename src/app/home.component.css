@@ -1,63 +1,14 @@
-header {
-	background-color: grey;
-}
 
-body{
-	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
+/* Column 3 styling */
 
-input, textarea{
-	font-size: 18px;
-	width: 200px;
-}
-
-label{
-	font-size: 16px
-}
-
-#loginForm {
-	text-align: right;
-}
-
-/* Login Toggle */
-#loginToggle {
-	cursor: pointer;
-}
-
-.popup-form {
-	padding: 5px;
-	border: 2px black;
-	display: inline-block;
-}
-
-.popup-form input {
-	width: 200px;
-}
-
-.popup-form label {
-	width: 150px;
-	display: inline-block;
-}
-
-.popup-form input[type=checkbox], .popup-form input[type=submit] {
-	width: auto;
-}
-
-.nav-item {
-	text-align: center; 
-}
-
-/* Unsortedlist */
 ul.course-props {
 	font-size: small;
 }
 
-/* Product list */
  ul.course-props li {
 	list-style-type: none;
 }
 
-/* Product-info */
 .course-info {
 	border: 1px solid grey;
 	display: inline-block;
@@ -73,19 +24,9 @@ ul.course-props {
 	max-width: 150px;
 }
 
-/* Contact View */
-#contactForm {
-}
-
-#contactForm input[type=submit]{
-
-} 
-
-
-Contact View, submitbtn 
- input[type=submit] {
-	width: auto;
-}  
 
 
 
+
+
+ 

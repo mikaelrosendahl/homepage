@@ -8,6 +8,7 @@ import { AboutComponent } from './about.component';
 import { CoursesComponent } from './courses.component';
 import { ContactComponent } from './contact.component';
 import { PageNotFoundComponent } from './pagenotfound.component';
+import { HeaderComponent } from './header.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { PageNotFoundComponent } from './pagenotfound.component';
     AboutComponent,
     CoursesComponent,
     ContactComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    HeaderComponent
 
   ],
   imports: [

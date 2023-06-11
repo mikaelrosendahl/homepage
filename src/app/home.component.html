@@ -1,120 +1,46 @@
-<!doctype html>
-<html lang="en">
+<app-header></app-header>
 
-<head>
-	<meta charset="utf-8">
-	<title>Exploration</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-</head>
+<!-- Where to better place this link? --> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<body>
-	<!-- Carousel -->
-	<div id="carousel" class="carousel slide" data-bs-ride="carousel">
-		<!-- Indicators/dots -->
-		<div class="carousel-indicators">
-			<button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-			<button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-			<button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<div class="row">
+	<div class="col-md-9">
+		<div>
+			<h3>Welcome to our world!</h3>
+			<p> <img src="/assets/img/vertical/EFR_web_06_335x500.jpeg" alt="Woundedchild1"
+					style="float: left; margin: 0px 15px 15px 15px;" alt="EFR" width="246" height="254">
+			</p>
+			<h3>The Way the World Learns to Dive®</h3>
+			<p>
+				PADI (the Professional Association of Diving Instructors) is the most recognized<br>
+				training organization worldwide with 29 million certifications and counting. <br>
+				PADI Dive Instructors undergo rigorous training to ensure your scuba certification<br>
+				class is fun and safe.
+			</p>
+			<h3>Getting Started</h3>
+			<p>
+				Discover Scuba Diving: If you want to try scuba diving, but you’re not quite ready to<br>
+				take the plunge into a scuba certification course, most PADI® Dive Shops offer a<br>
+				half-day experience called Discover Scuba Diving in a pool or pool-like environment, <br>
+				with an optional open water dive. It’s a quick and easy way to find out if you like<br>
+				scuba diving. Start your Discover Scuba Diving Course.
+			</p>
 		</div>
-
-		<!-- The slideshow/carousel -->
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="/assets/img/horizontal/go_pro_coraldiver_1080x566.jpg" alt="Coraldiver" class="d-block" style="width:100%">
-			</div>
-			<div class="carousel-item">
-				<img src="/assets/img/horizontal/go_pro_headbump_1080x566.jpg" alt="Twodivers" class="d-block"
-					style="width:100%">
-			</div>
-			<div class="carousel-item">
-				<img src="/assets/img/horizontal/lifestyle_beach_1080x566.jpeg" alt="Beachdivers" class="d-block"
-					style="width:100%">
-			</div>
-		</div>
-
-		<!-- Left and right controls/icons -->
-		<button class="carousel-control-prev" type="button" data-bs-target="#inspiration-carousel" data-bs-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		</button>
-		<button class="carousel-control-next" type="button" data-bs-target="#inspiration-carousel" data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-		</button>
 	</div>
-
-	<!--Navigation links -->
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-		<div class="container-fluid">
-			<!-- Links -->
-			<ul class="navbar-nav">
-				<li class="nav-item"><a [routerLink]="['/home']" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a></li>
-				<li class="nav-item"><a [routerLink]="['/about']" routerLinkActive="active" ariaCurrentWhenActive="page">About</a></li>
-				<li class="nav-item"><a [routerLink]="['/courses']" routerLinkActive="active" ariaCurrentWhenActive="page">Courses</a></li>
-				<li class="nav-item"><a [routerLink]="['/contact']" routerLinkActive="active" ariaCurrentWhenActive="page">Contact</a></li>	
+	<div class="col-md-3">
+		<p>This is bootstrap class col-md-3</p>
+		<div class="course-info">
+			<img src="assets/img/vertical/bubblemaker_393x315.png" alt="Bubblemaker" />
+			<h3>Bubblemaker</h3>
+			<ul class="course-props">
+				<li>Price: 898.00 kr</li>
+				<li>Instructor: Mikael Rosendahl</li>
+				<li>Level: Beginner </li>
+				<li>Description: Fun dive!</li>
 			</ul>
-		</div>
-	</nav>
-
-	<div class="row">
-		<div class="col-md-9">
-			<!-- Låda för presentationsdelen -->
-			<div id="förstasida">
-				<!-- Låda för brödtext -->
-				<div id="brödtext">
-					<!-- Textavsnitt samt huvudrubrik -->
-					<h3>Prova på att dyka med oss!</h3>
-					<p> <img src="/assets/img/vertical/EFR_web_06_335x500.jpeg" alt="Woundedchild1"
-							style="float: left; margin: 0px 15px 15px 15px;" alt="EFR" width="246" height="254">
-					</p>
-
-					<!-- Andra stycket -->
-					<h3>add title</h3>
-					<p>
-						Han har jämförts med såväl Thomas Edison som Steve Jobs. Men Elon Musk
-						saknar motstycke: han vill att människor ska kunna leva på Mars,<br>
-						han vill att vi ska köra bilar vars enda drivmedel är solenergi,
-						han drivs av en vision lika överdådig och kittlande som en science-fiction fantasi.
-					</p>
-					<p>
-						För företagsledaren och miljardären Musk handlar det om mer än en fantasi.
-						Med företag som Tesla Motors, SpaceX, PayPal och SolarCity<br> har han sänt chockvågor genom
-						affärs- och industrivärlden. I sin hyllade biografi berättar Ashlee Vance om Elon Musks
-						dramatiska liv och <br> om hur hans häpnadsväckande visioner formar vår tid. "Han gör vad han
-						vill
-						det är Elons värld och resten av oss lever i den."
-					</p>
-					<p>
-						"Efter de sista sidorna kommer ingen läsare vilja jämföra honom med Steve Jobs. Ge Musk
-						erkännande.
-						Det finns ingen som han." <br>
-						The New York Times
-					</p>
-					<p>
-						"Vance tecknar en oförglömlig bild av Musks unika personlighet, outsinnliga drivkraft och
-						förmåga att växa genom stora utmaningar." <br>
-						The Washington Post
-					</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="col-md-3">
-			<p>This is bootstrap class col-md-3</p>
-			<div class="course-info">
-				<img src="assets/img/vertical/bubblemaker_393x315.png" alt="Bubblemaker" />
-				<h3>Bubblemaker</h3>
-				<ul class="course-props">
-					<li>Price: 898.00 kr</li>
-					<li>Instructor: Mikael Rosendahl</li>
-					<li>Level: Beginner </li>
-					<li>Description: Fun dive!</li>
-				</ul>
-				<button id="Add" class="btn btn-success">Buy</button>
-			</div>
+			<button id="Add" class="btn btn-success">Buy</button>
 		</div>
 	</div>
-</body>
+</div>
 
-</html>
 <router-outlet></router-outlet>
