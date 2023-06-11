@@ -8,7 +8,7 @@ import { PageNotFoundComponent } from './pagenotfound.component';
 
 const routes: Routes = [
   { path: '',   redirectTo: '/home', pathMatch: 'full' }, // Redirect to homecomponent
- 
+  { path: 'home', title: 'Homepage', component: HomeComponent },
   { path: 'about', title: 'Aboutpage', component: AboutComponent },
   { path: 'courses', title: 'Coursespage', component: CoursesComponent },
   { path: 'contact',  title: 'Contactpage', component: ContactComponent },
