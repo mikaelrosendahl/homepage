@@ -1,18 +1,14 @@
 
+/* Column 3 styling */
 
-
-
-/* Unsortedlist */
 ul.course-props {
 	font-size: small;
 }
 
-/* Product list */
  ul.course-props li {
 	list-style-type: none;
 }
 
- /* Product-info */
 .course-info {
 	border: 1px solid grey;
 	display: inline-block;
