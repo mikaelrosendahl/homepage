@@ -29,7 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## colorscheme logo:
 
 Shape 1
-Color: #EBE7D9
+color: #EBE7D9
 Border Color: #EBE7D9
 
 Shape 2
