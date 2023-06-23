@@ -25,3 +25,24 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## colorscheme logo:
+
+Shape 1
+Color: #EBE7D9
+Border Color: #EBE7D9
+
+Shape 2
+Color: #F55139
+Border Color: #EBE7D9
+
+Exploration
+Text Color: #EBE7D9
+Font: Zen Dots
+
+Unlimited
+Text Color: #EBE7D9
+Font: Space Mono
+
+Background
+Color: #0F222D
