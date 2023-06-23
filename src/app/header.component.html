@@ -1,8 +1,61 @@
 <header>
-	<!--Navigation links -->
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+		<title>Flexible Hamburger Menu</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container">
+				<div class="d-flex">
+					<a class="navbar-brand"><img src="/assets/img/logo/favicon_exploration.png"></a>
+				</div>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+	</body>
+
+	</html>
+
+	<style>
+		/* Custom CSS for flexible hamburger menu */
+		@media (max-width: 991.98px) {
+			.navbar-expand-lg .navbar-nav .nav-link {
+				padding-right: 0.5rem;
+				padding-left: 0.5rem;
+			}
+		}
+	</style>
+</header>
+
+<!--	 Navigation links 
+	 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 		<div class="container-fluid">
-			<!-- Links -->
+			 Links 
 			<ul class="navbar-nav text-white">
 				<li class="nav-item"><a [routerLink]="['/home']" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a></li>
 				<li class="nav-item"><a [routerLink]="['/about']" routerLinkActive="active" ariaCurrentWhenActive="page">About</a></li>
@@ -10,5 +63,14 @@
 				<li class="nav-item"><a [routerLink]="['/contact']" routerLinkActive="active" ariaCurrentWhenActive="page">Contact</a></li>	
 			</ul>
 		</div>
-	</nav>
-</header>
+	</nav> -->
+
+	<!-- header {
+		.container {
+			background-color:#0F222D;
+			.navbar {
+				background-color: #0F222D;
+			}
+		}
+	   
+	} -->
