@@ -1,15 +1,21 @@
-/* 
 
 header {
     .container {
         background-color: $primary;
-        .navbar {
-            background-color: $primary;  
-        }
-        .nav-link {
-            color: $secondary;
-          }
-    }
-   
-} */
 
+        .navbar {
+            background-color: $primary;
+        }
+
+        .nav-link,
+        .nav-item,
+        .navbar-toggler {
+            color: $secondary;
+
+            &:hover,
+            :active {
+                background-color: darken($color: $primary, $amount: 5);
+            }
+        }
+    }
+}
