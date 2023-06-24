@@ -1,12 +1,15 @@
-$primary: #0F222D;
+
 
 header {
     .container {
         background-color: $primary;
-        
         .navbar {
             background-color: $primary;
         }
+        .nav-link {
+            color: red; /* Set the desired color value */
+          }
+          
     }
    
 }
