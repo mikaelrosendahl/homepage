@@ -5,15 +5,16 @@ import { AboutComponent } from './about.component';
 import { CoursesComponent } from './courses.component';
 import { ContactComponent } from './contact.component';
 import { PageNotFoundComponent } from './pagenotfound.component';
+import { NavComponent } from './nav/nav.component';
 
 const routes: Routes = [
-  { path: '',   redirectTo: '/home', pathMatch: 'full' }, // Redirect to homecomponent
-  { path: 'home', title: 'Homepage', component: HomeComponent },
-  { path: 'about', title: 'Aboutpage', component: AboutComponent },
-  { path: 'courses', title: 'Coursespage', component: CoursesComponent },
-  { path: 'contact',  title: 'Contactpage', component: ContactComponent },
-  { path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page
-
+  { path: '', component: NavComponent,children:[
+    { path: '', component: HomeComponent },
+    { path: 'about', title: 'Aboutpage', component: AboutComponent },
+    { path: 'courses', title: 'Coursespage', component: CoursesComponent },
+    { path: 'contact',  title: 'Contactpage', component: ContactComponent },
+  ] },
+  { path: '**', redirectTo: '',pathMatch:'prefix'}
 ];
 
  @NgModule({

@@ -9,6 +9,7 @@ import { CoursesComponent } from './courses.component';
 import { ContactComponent } from './contact.component';
 import { PageNotFoundComponent } from './pagenotfound.component';
 import { HeaderComponent } from './header.component';
+import { NavComponent } from './nav/nav.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { HeaderComponent } from './header.component';
     CoursesComponent,
     ContactComponent,
     PageNotFoundComponent,
-    HeaderComponent
+    HeaderComponent,
+    NavComponent
 
   ],
   imports: [
