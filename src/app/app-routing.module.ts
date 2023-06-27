@@ -9,12 +9,12 @@ import { NavComponent } from './nav/nav.component';
 
 const routes: Routes = [
   { path: '', component: NavComponent,children:[
-    { path: '', title: 'Homepage', component: HomeComponent },
+    { path: '', component: HomeComponent },
     { path: 'about', title: 'Aboutpage', component: AboutComponent },
     { path: 'courses', title: 'Coursespage', component: CoursesComponent },
     { path: 'contact',  title: 'Contactpage', component: ContactComponent },
   ] },
-  { path: '**', redirectTo: '',pathMatch:'prefix' } 
+  { path: '**', redirectTo: '',pathMatch:'prefix'}
 ];
 
  @NgModule({
