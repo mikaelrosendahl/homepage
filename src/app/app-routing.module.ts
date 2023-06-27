@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'about', title: 'Aboutpage', component: AboutComponent },
   { path: 'courses', title: 'Coursespage', component: CoursesComponent },
   { path: 'contact', title: 'Contactpage', component: ContactComponent },
-  { path: '**', redirectTo: '', pathMatch: 'prefix' }
+  { path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page
 ];
 
 @NgModule({
