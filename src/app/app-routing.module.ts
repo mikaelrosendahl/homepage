@@ -5,19 +5,17 @@ import { AboutComponent } from './about.component';
 import { CoursesComponent } from './courses.component';
 import { ContactComponent } from './contact.component';
 import { PageNotFoundComponent } from './pagenotfound.component';
-import { NavComponent } from './nav/nav.component';
+
 
 const routes: Routes = [
-  { path: '', component: NavComponent,children:[
-    { path: '', component: HomeComponent },
-    { path: 'about', title: 'Aboutpage', component: AboutComponent },
-    { path: 'courses', title: 'Coursespage', component: CoursesComponent },
-    { path: 'contact',  title: 'Contactpage', component: ContactComponent },
-  ] },
-  { path: '**', redirectTo: '',pathMatch:'prefix'}
+  { path: '', component: HomeComponent },
+  { path: 'about', title: 'Aboutpage', component: AboutComponent },
+  { path: 'courses', title: 'Coursespage', component: CoursesComponent },
+  { path: 'contact', title: 'Contactpage', component: ContactComponent },
+  { path: '**', redirectTo: '', pathMatch: 'prefix' }
 ];
 
- @NgModule({
+@NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
