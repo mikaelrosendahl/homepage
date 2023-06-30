@@ -8,11 +8,11 @@ import { PageNotFoundComponent } from './pagenotfound.component';
 
 
 const routes: Routes = [
-  { path: '', title: 'Home', component: HomeComponent },
+  { path: 'home', title: 'Home', component: HomeComponent },
   { path: 'about', title: 'Aboutpage', component: AboutComponent },
   { path: 'courses', title: 'Coursespage', component: CoursesComponent },
   { path: 'contact', title: 'Contactpage', component: ContactComponent },
-  { path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page
+  { path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page 
 ];
 
 @NgModule({
