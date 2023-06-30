@@ -1,5 +1,5 @@
 /* To do: Move var to global */
-$primary: #0F222D;
+$primary: black;   /*   #0F222D */
 $secondary: #EBE7D9;
 
 header {
@@ -8,15 +8,16 @@ header {
         .navbar {
             background-color: $primary;
         }
-        .nav-link,
-        .nav-item,
-        .navbar-toggler {
+        .nav-link ,
+        .nav-item ,
+        .navbar-toggler,
+        .navbar-toggler-icon {
             color: $secondary;
         /* To do: Fix hoover color */
             &:hover,
             :active {
-                background-color: darken($color: $secondary, $amount: 5);
-            }
+                background-color: darken($color: $primary, $amount: 5);
+            }  
         }
     }
 }
