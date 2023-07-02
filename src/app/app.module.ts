@@ -8,7 +8,7 @@ import { AboutComponent } from './about.component';
 import { CoursesComponent } from './courses.component';
 import { ContactComponent } from './contact.component';
 import { PageNotFoundComponent } from './pagenotfound.component';
-import { HeaderComponent } from './header.component';
+import { MenuComponent } from './menu.component';
 
 
 @NgModule({
@@ -19,7 +19,7 @@ import { HeaderComponent } from './header.component';
     CoursesComponent,
     ContactComponent,
     PageNotFoundComponent,
-    HeaderComponent,
+    MenuComponent,
   
 
   ],
