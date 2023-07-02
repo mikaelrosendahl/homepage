@@ -5,23 +5,29 @@ $secondary: #EBE7D9;
 
 header {
     .container {
+        height: 3rem;
         background-color: $primary;
 
         .navbar {
             background-color: $primary;
         }
 
-        .nav-link,
+        .nav-link {
+          /*   background-color: $primary; */
+            color: $secondary;
+            &:hover,
+            :active {
+                color: darken($color: $secondary, $amount: 20);
+            }  &:focus {
+                text-decoration: underline;
+              }
+        }
         .nav-item,
-        .navbar-toggler
-        {
-        color: $secondary;
+        .navbar-toggler {
+            color: $secondary;
 
-        /* To do: Fix hoover color */
-        &:hover,
-        :active {
-            background-color: darken($color: $primary, $amount: 5);
+            /* To do: Fix hoover color */
+          
         }
     }
-}
 }
