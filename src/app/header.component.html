@@ -1,14 +1,53 @@
 <header>
-	<!--Navigation links -->
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-		<div class="container-fluid">
-			<!-- Links -->
-			<ul class="navbar-nav text-white">
-				<li class="nav-item"><a [routerLink]="['/home']" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a></li>
-				<li class="nav-item"><a [routerLink]="['/about']" routerLinkActive="active" ariaCurrentWhenActive="page">About</a></li>
-				<li class="nav-item"><a [routerLink]="['/courses']" routerLinkActive="active" ariaCurrentWhenActive="page">Courses</a></li>
-				<li class="nav-item"><a [routerLink]="['/contact']" routerLinkActive="active" ariaCurrentWhenActive="page">Contact</a></li>	
-			</ul>
+	<!DOCTYPE html>
+	<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+	</head>
+
+	<body>
+		<div class="d-flex>">
+			<nav class="navbar navbar-expand-lg">
+				<div class="container">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="fa-solid fa-bars"></span>
+					</button>
+						<div class="collapse navbar-collapse justify-content-center">
+							<ul class="navbar-nav gap-4">
+								<li class="nav-item">
+									<a class="nav-link" routerLink="/home">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" routerLink="/about">About</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" routerLink="/courses">Courses</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" routerLink="/contact">Contact</a>
+								</li>
+							</ul>
+						</div>
+		
+				</div>
+			</nav>
 		</div>
-	</nav>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+	</body>
+
+	</html>
+	<style>
+		/* Custom CSS for flexible hamburger menu */
+		@media (max-width: 991.98px) {
+			.navbar-expand-lg .navbar-nav .nav-link {
+				padding-right: 0.5rem;
+				padding-left: 0.5rem;
+			}
+		}
+	</style>
 </header>
+

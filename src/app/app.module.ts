@@ -19,7 +19,8 @@ import { HeaderComponent } from './header.component';
     CoursesComponent,
     ContactComponent,
     PageNotFoundComponent,
-    HeaderComponent
+    HeaderComponent,
+  
 
   ],
   imports: [
