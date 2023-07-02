@@ -13,21 +13,23 @@ header {
         }
 
         .nav-link {
-          /*   background-color: $primary; */
+
             color: $secondary;
+
             &:hover,
             :active {
                 color: darken($color: $secondary, $amount: 20);
-            }  &:focus {
+            }
+
+            &:focus {
                 text-decoration: underline;
-              }
+            }
         }
+
         .nav-item,
         .navbar-toggler {
             color: $secondary;
 
-            /* To do: Fix hoover color */
-          
         }
     }
 }
