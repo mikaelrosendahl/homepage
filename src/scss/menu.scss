@@ -4,9 +4,9 @@ $primary: black;
 $secondary: #EBE7D9;
 
 nav {
-    .container-fluid {
+   /*  .container-fluid {
         height: 3rem;
-        background-color: $primary;
+        background-color: $primary; */
 
         .navbar {
             background-color: $primary;
@@ -31,5 +31,5 @@ nav {
             color: $secondary;
 
         }
-    }
+    
 }
