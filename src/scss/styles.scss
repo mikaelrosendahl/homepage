@@ -3,12 +3,17 @@
 $primary: black ;
 $secondary: #EBE7D9; 
 
- .content {
-   /*  height: 25rem; */
+.content {
+    height: 10rem;
     background-color: $primary;  
+}
+.bg-color {
+    background-color: $primary;
 }
 .text {
     font: 1em sans-serif;
+    color: $secondary;
+    height: 10rem;
     width: 512px;
     background-color: $primary;
 }
