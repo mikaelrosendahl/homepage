@@ -4,8 +4,13 @@ $primary: black ;
 $secondary: #EBE7D9; 
 
  .content {
-    height: 25rem;
+   /*  height: 25rem; */
     background-color: $primary;  
+}
+.text {
+    font: 1em sans-serif;
+    width: 512px;
+    background-color: $primary;
 }
 	/* Custom CSS for flexible hamburger menu */
     @media (max-width: 991.98px) {
