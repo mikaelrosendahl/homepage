@@ -4,7 +4,7 @@ $primary: black ;
 $secondary: #EBE7D9; 
 
 .content {
-    height: 10rem;
+    height: 15rem;
     background-color: $primary;  
 }
 .bg-color {
@@ -13,8 +13,9 @@ $secondary: #EBE7D9;
 .text {
     font: 1em sans-serif;
     color: $secondary;
-    height: 10rem;
-    width: 512px;
+    height: 4rem;
+    width: 612px;
+    text-align: center;
     background-color: $primary;
 }
 	/* Custom CSS for flexible hamburger menu */
