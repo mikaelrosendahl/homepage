@@ -1,7 +1,4 @@
-/* To do: Move var to global */
-$primary: black;
-/*   #0F222D */
-$secondary: #EBE7D9;
+@import 'variables';
 
 nav {
  
@@ -27,6 +24,13 @@ nav {
         .navbar-toggler {
             color: $secondary;
 
+        }
+        .language-btn{
+            background-color: transparent;
+        }
+        .language-globe {
+            color: $secondary;
+           /*  padding: 8px; */
         }
     
 }
