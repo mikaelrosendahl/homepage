@@ -1,35 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
-/* $primary: #0F222D;
-$secondary: #EBE7D9; */
 
-/* 
-header {
-    .container {
-        background-color: $primary;
-
-        .navbar {
-            background-color: $primary;
-        }
-
-        .nav-link,
-        .nav-item,
-        .navbar-toggler {
-            color: $secondary;
-
-            &:hover,
-            :active {
-                background-color: darken($color: $primary, $amount: 5);
-            }
-        }
-    }
-} */
 
 $primary: black ;
 $secondary: #EBE7D9; 
 
- .content {
-    height: 25rem;
+.content {
+    height: 15rem;
     background-color: $primary;  
+}
+.bg-color {
+    background-color: $primary;
+}
+.text {
+    font: 1em sans-serif;
+    color: $secondary;
+    height: 4rem;
+    width: 612px;
+    text-align: center;
+    background-color: $primary;
 }
 	/* Custom CSS for flexible hamburger menu */
     @media (max-width: 991.98px) {
