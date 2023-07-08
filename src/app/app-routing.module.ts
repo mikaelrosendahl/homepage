@@ -9,9 +9,9 @@ import { PageNotFoundComponent } from './pagenotfound.component';
 
 const routes: Routes = [
   { path: 'home', title: 'Home', component: HomeComponent },
-  { path: 'about', title: 'Aboutpage', component: AboutComponent },
-  { path: 'courses', title: 'Coursespage', component: CoursesComponent },
-  { path: 'contact', title: 'Contactpage', component: ContactComponent },
+  { path: 'about', title: 'About', component: AboutComponent },
+  { path: 'courses', title: 'Courses', component: CoursesComponent },
+  { path: 'contact', title: 'Contact', component: ContactComponent },
   { path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page 
 ];
 

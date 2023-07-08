@@ -12,8 +12,9 @@
 		<div class="d-flex>">
 			<nav class="navbar navbar-expand-lg">
 				<div class="container-fluid">
-					<button class="btn btn-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<button class="btn btn-transparent" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+						aria-label="Toggle navigation">
 						<span class="fa-solid fa-bars navbar-toggler" title="Menu"></span>
 					</button>
 					<div class="collapse navbar-collapse justify-content-left ps-4">
@@ -25,16 +26,22 @@
 								<a class="nav-link" routerLink="/about" aria-label="About">About</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" routerLink="/courses" aria-label="About">Courses</a>
+								<a class="nav-link" routerLink="/courses" aria-label="Courses">Courses</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" routerLink="/contact" aria-label="About">Contact</a>
+								<a class="nav-link" routerLink="/contact" aria-label="Contact">Contact</a>
 							</li>
 						</ul>
 					</div>
-					<button class="btn btn-transparent">
-						<span class="fa-solid fa-globe language-globe" title="Choose language" aria-label="Globe"></span>
-					</button>
+					<div class="d-flex justify-content-left gap-2 pe-4">
+						<button class="btn btn-transparent">
+							<span class="fa-solid fa-globe nav-globe" title="Select language"
+								aria-label="Select language"></span>
+						</button>
+						<button class="btn btn-transparent">
+							<span class="nav-login" title="Login" aria-label="Login">Login</span>
+						</button>
+					</div>
 				</div>
 			</nav>
 		</div>

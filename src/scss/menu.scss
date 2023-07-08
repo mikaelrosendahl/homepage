@@ -8,7 +8,8 @@ nav {
 
     .nav-link,
     .navbar-toggler, 
-    .language-globe {
+    .nav-globe,
+    .nav-login {
 
         color: $secondary;
 
@@ -31,18 +32,5 @@ nav {
         background-color: transparent;
 
     }
-
-   /*  .language-globe {
-        color: $secondary;
-
-        &:hover,
-        :active {
-            color: darken($color: $secondary, $amount: 20);
-        }
-
-        &:focus {
-            text-decoration: underline;
-        }
-    } */
 
 }
