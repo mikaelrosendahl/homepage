@@ -1,36 +1,48 @@
 @import 'variables';
 
 nav {
- 
-        .navbar {
-            background-color: $primary;
+
+    .navbar {
+        background-color: $primary;
+    }
+
+    .nav-link,
+    .navbar-toggler, 
+    .language-globe {
+
+        color: $secondary;
+
+        &:hover,
+        :active {
+            color: darken($color: $secondary, $amount: 20);
         }
 
-        .nav-link {
+        &:focus {
+            text-decoration: underline;
+        }
+    }
 
-            color: $secondary;
+    .nav-item {
+        color: $secondary;
 
-            &:hover,
-            :active {
-                color: darken($color: $secondary, $amount: 20);
-            }
+    }
 
-            &:focus {
-                text-decoration: underline;
-            }
+    .language-btn {
+        background-color: transparent;
+
+    }
+
+   /*  .language-globe {
+        color: $secondary;
+
+        &:hover,
+        :active {
+            color: darken($color: $secondary, $amount: 20);
         }
 
-        .nav-item,
-        .navbar-toggler {
-            color: $secondary;
+        &:focus {
+            text-decoration: underline;
+        }
+    } */
 
-        }
-        .language-btn{
-            background-color: transparent;
-        }
-        .language-globe {
-            color: $secondary;
-           /*  padding: 8px; */
-        }
-    
 }
