@@ -11,6 +11,7 @@ import { PageNotFoundComponent } from './pagenotfound.component';
 import { MenuComponent } from './menu.component';
 import { HeaderComponent } from './header.component';
 import { FooterComponent } from './footer.component';
+import { LoginModalComponent } from './login-modal/login-modal.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { FooterComponent } from './footer.component';
     PageNotFoundComponent,
     MenuComponent,
     HeaderComponent,
-    FooterComponent 
+    FooterComponent,
+    LoginModalComponent 
   
 
   ],
