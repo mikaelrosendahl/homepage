@@ -1,32 +1,36 @@
-/* To do: Move var to global */
-$primary: black;
-/*   #0F222D */
-$secondary: #EBE7D9;
+@import 'variables';
 
 nav {
- 
-        .navbar {
-            background-color: $primary;
+
+    .navbar {
+        background-color: $primary;
+    }
+
+    .nav-link,
+    .navbar-toggler, 
+    .nav-globe,
+    .nav-login {
+
+        color: $secondary;
+
+        &:hover,
+        :active {
+            color: darken($color: $secondary, $amount: 20);
         }
 
-        .nav-link {
-
-            color: $secondary;
-
-            &:hover,
-            :active {
-                color: darken($color: $secondary, $amount: 20);
-            }
-
-            &:focus {
-                text-decoration: underline;
-            }
+        &:focus {
+            text-decoration: underline;
         }
+    }
 
-        .nav-item,
-        .navbar-toggler {
-            color: $secondary;
+    .nav-item {
+        color: $secondary;
 
-        }
-    
+    }
+
+    .language-btn {
+        background-color: transparent;
+
+    }
+
 }
