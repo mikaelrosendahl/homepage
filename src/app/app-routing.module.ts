@@ -8,6 +8,7 @@ import { PageNotFoundComponent } from './pagenotfound.component';
 import { LoginComponent } from './login.component';
 
 
+
 const routes: Routes = [
   { path: 'home', title: 'Home', component: HomeComponent },
   { path: 'about', title: 'About', component: AboutComponent },

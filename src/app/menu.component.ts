@@ -7,9 +7,11 @@ import { Component } from '@angular/core';
 }) 
 
 export class MenuComponent {
-  isLoginVisible = false;
+  showMenu: boolean = true;
 
-  showLogin() {
-    this.isLoginVisible = true;
-  }
+  toogleList(){
+  this.showMenu = !this.showMenu;
+
+   }
+
 }
