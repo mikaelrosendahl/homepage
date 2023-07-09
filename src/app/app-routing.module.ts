@@ -5,7 +5,7 @@ import { AboutComponent } from './about.component';
 import { CoursesComponent } from './courses.component';
 import { ContactComponent } from './contact.component';
 import { PageNotFoundComponent } from './pagenotfound.component';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './login.component';
 
 
 const routes: Routes = [
