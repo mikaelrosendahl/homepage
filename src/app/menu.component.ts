@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
 }) 
 
 export class MenuComponent {
+  isModalVisible = false;
 
+  showModal() {
+    this.isModalVisible = true;
+  }
 }

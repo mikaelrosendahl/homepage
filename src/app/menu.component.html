@@ -38,7 +38,8 @@
 							<span class="fa-solid fa-globe nav-globe" title="Select language"
 								aria-label="Select language"></span>
 						</button>
-						<button class="btn btn-transparent">
+						<button class="btn btn-transparent" (click)="showModal()" routerLink="./login">
+							<app-login *ngIf="isModalVisible"></app-login>
 							<span class="nav-login" title="Login" aria-label="Login">Login</span>
 						</button>
 					</div>
