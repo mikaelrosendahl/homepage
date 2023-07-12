@@ -10,11 +10,11 @@ import { LoginComponent } from './login.component';
 
 
 const routes: Routes = [
-  { path: 'home', title: 'Home', component: HomeComponent },
-  { path: 'about', title: 'About', component: AboutComponent },
-  { path: 'courses', title: 'Courses', component: CoursesComponent },
-  { path: 'contact', title: 'Contact', component: ContactComponent },
-  { path: 'login', title: 'Login', component: LoginComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'about', component: AboutComponent },
+  { path: 'courses', component: CoursesComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'login',  component: LoginComponent },
   { path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page 
 ];
 
