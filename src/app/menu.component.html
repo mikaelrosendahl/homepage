@@ -1,3 +1,5 @@
+
+
 <nav>
 	<!DOCTYPE html>
 	<html lang="en">
@@ -12,24 +14,24 @@
 		<div class="d-flex>">
 			<nav class="navbar navbar-expand-lg">
 				<div class="container-fluid">
-					<button class="btn btn-transparent" type="button" data-bs-toggle="collapse"
+					<button class="btn btn-transparent" (Click)="toogleList()" type="button" data-bs-toggle="collapse"
 						data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
 						aria-label="Toggle navigation">
-						<span class="fa-solid fa-bars navbar-toggler" title="Menu"></span>
-					</button>
+						<span class="fa-solid fa-bars navbar-toggler" title="smallMenu"></span>
+					</button> 
 					<div class="collapse navbar-collapse justify-content-left ps-4">
 						<ul class="navbar-nav gap-4">
 							<li class="nav-item">
-								<a class="nav-link" routerLink="/home" aria-label="Home">Home</a>
+								<a class="nav-link" routerLink="/home" aria-label="Home">{{'MENU.HOME' | translate}}</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" routerLink="/about" aria-label="About">About</a>
+								<a class="nav-link" routerLink="/about" aria-label="About">{{'MENU.ABOUT' | translate}}</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" routerLink="/courses" aria-label="Courses">Courses</a>
+								<a class="nav-link" routerLink="/courses" aria-label="Courses">{{'MENU.COURSES' | translate}}</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" routerLink="/contact" aria-label="Contact">Contact</a>
+								<a class="nav-link" routerLink="/contact" aria-label="Contact">{{'MENU.CONTACT' | translate}}</a>
 							</li>
 						</ul>
 					</div>
@@ -38,9 +40,7 @@
 							<span class="fa-solid fa-globe nav-globe" title="Select language"
 								aria-label="Select language"></span>
 						</button>
-						<button class="btn btn-transparent">
-							<span class="nav-login" title="Login" aria-label="Login">Login</span>
-						</button>
+						<a class="nav-link" routerLink="/login" aria-label="Login">Login</a>
 					</div>
 				</div>
 			</nav>
