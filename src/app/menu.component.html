@@ -36,11 +36,11 @@
 						</ul>
 					</div>
 					<div class="d-flex justify-content-left gap-2 pe-4">
-						<button class="btn btn-transparent">
+						<button class="btn btn-transparent" (click)="switchLanguage()">{{ currentLanguage }}
 							<span class="fa-solid fa-globe nav-globe" title="Select language"
 								aria-label="Select language"></span>
 						</button>
-						<a class="nav-link" routerLink="/login" aria-label="Login">Login</a>
+						<a class="nav-link" routerLink="/login" aria-label="Login">{{'MENU.LOGIN' | translate}}</a>
 					</div>
 				</div>
 			</nav>
