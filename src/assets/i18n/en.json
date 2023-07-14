@@ -1,6 +1,8 @@
 {
-    "HOME": "Home",
-    "ABOUT": "About",
-    "COURSES": "Courses",
-    "CONTACT": "Contact"
+    "MENU": {
+        "HOME": "Home",
+        "ABOUT": "About",
+        "COURSES": "Courses",
+        "CONTACT": "Contact"
+    }
 }

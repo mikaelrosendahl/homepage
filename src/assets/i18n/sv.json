@@ -1,6 +1,8 @@
 {
-    "HOME": "Hem",
-    "ABOUT": "Om",
-    "COURSES": "Kurser",
-    "CONTACT": "Kontakt"
+    "MENU": {
+        "HOME": "Hem",
+        "ABOUT": "Om",
+        "COURSES": "Kurser",
+        "CONTACT": "Kontakt"
+    }
 }
