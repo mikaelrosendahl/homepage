@@ -3,6 +3,8 @@
         "HOME": "Home",
         "ABOUT": "About",
         "COURSES": "Courses",
-        "CONTACT": "Contact"
+        "CONTACT": "Contact",
+        "LANGUAGE": "Select language",
+        "LOGIN": "Login"
     }
 }

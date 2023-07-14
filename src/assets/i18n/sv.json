@@ -3,6 +3,8 @@
         "HOME": "Hem",
         "ABOUT": "Om",
         "COURSES": "Kurser",
-        "CONTACT": "Kontakt"
+        "CONTACT": "Kontakt",
+        "LANGUAGE": "Välj språk:",
+        "LOGIN": "Logga in"
     }
 }
