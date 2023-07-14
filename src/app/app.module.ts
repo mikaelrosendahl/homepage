@@ -13,6 +13,9 @@ import { HeaderComponent } from './header.component';
 import { FooterComponent } from './footer.component';
 import { LoginComponent } from './login.component';
 import { ToggleBarComponent } from './toggle-bar/toggle-bar.component';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslationLoaderService } from './translation-loader.service';
+import { HttpClient } from '@angular/common/http';
 
 
 @NgModule({
@@ -33,7 +36,14 @@ import { ToggleBarComponent } from './toggle-bar/toggle-bar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useClass: TranslationLoaderService,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
