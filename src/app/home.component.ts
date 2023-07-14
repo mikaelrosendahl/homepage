@@ -12,4 +12,5 @@ export class HomeComponent {
   showLogin() {
     this.isLoginVisible = true;
   }
+
 }

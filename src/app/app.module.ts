@@ -13,6 +13,7 @@ import { HeaderComponent } from './header.component';
 import { FooterComponent } from './footer.component';
 import { LoginComponent } from './login.component';
 import { ToggleBarComponent } from './toggle-bar/toggle-bar.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 @NgModule({
@@ -27,13 +28,15 @@ import { ToggleBarComponent } from './toggle-bar/toggle-bar.component';
     HeaderComponent,
     FooterComponent,
     LoginComponent,
-    ToggleBarComponent 
+    ToggleBarComponent,
+    
   
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TranslateModule
   ],
   providers: [],
   bootstrap: [AppComponent]
