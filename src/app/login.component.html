@@ -1,0 +1,24 @@
+<div>
+    <form>
+        <!-- Add your login form fields here -->
+        <h2>Login</h2>
+        <form (ngSubmit)="login()">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <input type="checkbox" />
+            <label>Remember Me?</label>
+            <br>
+            <button type="submit" title="Login" aria-label="login">Login</button>
+        </form>
+    </form>
+</div>
+
+<!-- [(ngModel)]="username" required
+[(ngModel)]="password" required -->
