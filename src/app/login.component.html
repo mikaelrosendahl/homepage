@@ -1,6 +1,15 @@
-<div>
+
+
+<form (ngSubmit)="onSubmit()">
+    <input type="text" [(ngModel)]="username" name="username" placeholder="Username" required>
+    <input type="password" [(ngModel)]="password" name="password" placeholder="Password" required>
+    <button type="submit">Login</button>
+  </form>
+  <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+
+<!-- <div>
     <form>
-        <!-- Add your login form fields here -->
+    
         <form (ngSubmit)="login()">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username">
@@ -17,7 +26,7 @@
             <button type="submit" title="Login" aria-label="login">Login</button>
         </form>
     </form>
-</div>
+</div> -->
 
 <!-- [(ngModel)]="username" required
 [(ngModel)]="password" required -->
