@@ -3,6 +3,16 @@
         "HOME": "Hem",
         "ABOUT": "Om",
         "COURSES": "Kurser",
-        "CONTACT": "Kontakt"
+        "CONTACT": "Kontakt",
+        "LANGUAGE": "Välj språk:",
+        "LOGIN": "Logga in"
+    },
+
+    "HOME": {
+        "TEXTROW_1": "Sedan vi öppnade har vi blivit mästare i vårt hantverk.",
+		"TEXTROW_2": "Vårt engagemang för kvalitetsprodukter, exceptionella tjänster",
+		"TEXTROW_3": "och oöverträffad kundvård håller vårt samhälle", 
+		"TEXTROW_4": "kommer tillbaka igen och igen."
+
     }
 }

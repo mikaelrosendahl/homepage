@@ -3,6 +3,15 @@
         "HOME": "Home",
         "ABOUT": "About",
         "COURSES": "Courses",
-        "CONTACT": "Contact"
+        "CONTACT": "Contact",
+        "LANGUAGE": "Select language",
+        "LOGIN": "Login"
+    },
+    "HOME": {
+        "TEXTROW_1": "Since our opening, we have become masters of our craft.",
+		"TEXTROW_2": "Our commitment to quality products, execeptional services",
+		"TEXTROW_3": "and incomperable cutomer care keep our community", 
+		"TEXTROW_4": "coming back again and again."
+
     }
 }
