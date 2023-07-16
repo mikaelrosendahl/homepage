@@ -16,6 +16,7 @@ import { ToggleBarComponent } from './toggle-bar/toggle-bar.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslationLoaderService } from './translation-loader.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {

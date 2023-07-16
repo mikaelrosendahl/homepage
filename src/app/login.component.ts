@@ -1,15 +1,36 @@
 import { Component } from '@angular/core';
+import { AuthService } from './Services/AuthService';
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
 
 })
+
 export class LoginComponent {
-  ngSubmit = false;
+  
+  username!: string;
+  password!: string;
+  errorMessage!: string;
 
-  login() {
-    this.ngSubmit = true;
+  constructor(private authService: AuthService) { }
+
+  onSubmit() {
+    this.authService.login(this.username, this.password)
+      .subscribe(
+        () => {
+          // Redirect to the desired page or perform any necessary actions
+          console.log('Login successful');
+        },
+        error => {
+          this.errorMessage = 'Login failed. Please check your credentials.';
+          console.error('Error during login:', error);
+        }
+      );
   }
-
 }
+
+/* ngSubmit = false;
+login() {
+  this.ngSubmit = true;
+} */
