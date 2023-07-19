@@ -17,6 +17,7 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslationLoaderService } from './translation-loader.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { ExploreComponent } from './explore.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { FormsModule } from '@angular/forms';
     HeaderComponent,
     FooterComponent,
     LoginComponent,
-    ToggleBarComponent 
+    ToggleBarComponent,
+    ExploreComponent
   
 
   ],
