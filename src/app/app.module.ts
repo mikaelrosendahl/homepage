@@ -22,6 +22,7 @@ import { LearnComponent } from './learn.component';
 import { ElearningComponent } from './e-learning';
 import { TravelComponent } from './travel.component';
 import { AboutUsComponent } from './about-us.component';
+import { OurCoursesComponent } from './our-courses';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { AboutUsComponent } from './about-us.component';
     LearnComponent,
     ElearningComponent,
     TravelComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    OurCoursesComponent
   
 
   ],
