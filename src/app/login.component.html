@@ -1,0 +1,32 @@
+
+
+<form (ngSubmit)="onSubmit()">
+    <input type="text" [(ngModel)]="username" name="username" placeholder="Username" required>
+    <input type="password" [(ngModel)]="password" name="password" placeholder="Password" required>
+    <button type="submit">Login</button>
+  </form>
+  <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+
+<!-- <div>
+    <form>
+    
+        <form (ngSubmit)="login()">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <input type="checkbox" />
+            <label>Save login?</label>
+            <br>
+            <button type="submit" title="Login" aria-label="login">Login</button>
+        </form>
+    </form>
+</div> -->
+
+<!-- [(ngModel)]="username" required
+[(ngModel)]="password" required -->

@@ -4,18 +4,19 @@ nav {
 
     .navbar {
         background-color: $primary;
+       
     }
 
     .nav-link,
-    .navbar-toggler, 
-    .nav-globe,
-    .nav-login {
+    .navbar-toggler,
+    .nav-globe {
 
-        color: $secondary;
+        font-size: large;
+        color: $secondary !important;
 
         &:hover,
         :active {
-            color: darken($color: $secondary, $amount: 20);
+            color: darken($color: $secondary, $amount: 20) !important;
         }
 
         &:focus {
@@ -23,22 +24,9 @@ nav {
         }
     }
 
-    .nav-item {
-        color: $secondary;
-
-    }
-
     .language-btn {
         background-color: transparent;
 
     }
 
-    .modal {
-        /* Add necessary styles to display the modal as a fixed overlay */
-      }
-      
-      .modal-content {
-        /* Add necessary styles to center the modal content */
-      }
-      
 }

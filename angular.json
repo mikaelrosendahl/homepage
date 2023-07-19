@@ -4,6 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "Homepage": {
+      
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -65,7 +66,8 @@
               "browserTarget": "Homepage:build:production"
             },
             "development": {
-              "browserTarget": "Homepage:build:development"
+              "browserTarget": "Homepage:build:development",
+              "port": 4200
             }
           },
           "defaultConfiguration": "development"
