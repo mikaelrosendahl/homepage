@@ -21,6 +21,7 @@ import { ExploreComponent } from './explore.component';
 import { LearnComponent } from './learn.component';
 import { ElearningComponent } from './e-learning';
 import { TravelComponent } from './travel.component';
+import { AboutUsComponent } from './about-us.component';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { TravelComponent } from './travel.component';
     ExploreComponent,
     LearnComponent,
     ElearningComponent,
-    TravelComponent 
+    TravelComponent,
+    AboutUsComponent
   
 
   ],
