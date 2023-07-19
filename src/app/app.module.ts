@@ -19,6 +19,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { ExploreComponent } from './explore.component';
 import { LearnComponent } from './learn.component';
+import { ElearningComponent } from './e-learning';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { LearnComponent } from './learn.component';
     LoginComponent,
     ToggleBarComponent,
     ExploreComponent,
-    LearnComponent
+    LearnComponent,
+    ElearningComponent
   
 
   ],
