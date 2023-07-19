@@ -6,7 +6,7 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=5, user-scalable=yes">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
 	</head>
 
@@ -36,9 +36,9 @@
 						</ul>
 					</div>
 					<div class="d-flex justify-content-left gap-2 pe-4">
-						<button class="btn btn-transparent" (click)="switchLanguage()">{{ currentLanguage }}
-							<span class="fa-solid fa-globe nav-globe" title="Select language"
-								aria-label="Select language"></span>
+						<button class="btn btn-transparent" (click)="switchLanguage()" title="Select language"
+						aria-label="Select language">{{ currentLanguage }}
+							<span class="fa-solid fa-globe nav-globe"></span>
 						</button>
 						<a class="nav-link" routerLink="/login" aria-label="Login">{{'MENU.LOGIN' | translate}}</a>
 					</div>

@@ -11,6 +11,7 @@ nav {
     .navbar-toggler,
     .nav-globe {
 
+        font-size: large;
         color: $secondary !important;
 
         &:hover,
@@ -23,21 +24,9 @@ nav {
         }
     }
 
-
-
-
-
     .language-btn {
         background-color: transparent;
 
-    }
-
-    .modal {
-        /* Add necessary styles to display the modal as a fixed overlay */
-    }
-
-    .modal-content {
-        /* Add necessary styles to center the modal content */
     }
 
 }
