@@ -1,0 +1,28 @@
+@import 'variables';
+
+.content {
+    height: 10rem;
+    background-color: $primary;  
+}
+
+.bg-color-prim {
+    background-color: $primary;
+}
+.bg-color-sec {
+    background-color: $secondary;
+}
+.text {
+    font: 1em sans-serif;
+    color: $secondary;
+    height: 4rem;
+    width: 612px;
+    text-align: center;
+    background-color: $primary;
+}
+	/* Custom CSS for flexible hamburger menu */
+    @media (max-width: 991.98px) {
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 0.5rem;
+            padding-left: 0.5rem;
+        }
+    }

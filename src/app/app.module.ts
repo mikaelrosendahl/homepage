@@ -18,6 +18,9 @@ import { TranslationLoaderService } from './translation-loader.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { ExploreComponent } from './explore.component';
+import { LearnComponent } from './learn.component';
+import { ElearningComponent } from './e-learning';
+import { TravelComponent } from './travel.component';
 
 
 @NgModule({
@@ -33,7 +36,10 @@ import { ExploreComponent } from './explore.component';
     FooterComponent,
     LoginComponent,
     ToggleBarComponent,
-    ExploreComponent
+    ExploreComponent,
+    LearnComponent,
+    ElearningComponent,
+    TravelComponent 
   
 
   ],
