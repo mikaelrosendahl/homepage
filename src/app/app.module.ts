@@ -20,6 +20,7 @@ import { FormsModule } from '@angular/forms';
 import { ExploreComponent } from './explore.component';
 import { LearnComponent } from './learn.component';
 import { ElearningComponent } from './e-learning';
+import { TravelComponent } from './travel.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { ElearningComponent } from './e-learning';
     ToggleBarComponent,
     ExploreComponent,
     LearnComponent,
-    ElearningComponent
+    ElearningComponent,
+    TravelComponent 
   
 
   ],
