@@ -17,6 +17,13 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslationLoaderService } from './translation-loader.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { ExploreComponent } from './explore.component';
+import { LearnComponent } from './learn.component';
+import { ElearningComponent } from './e-learning';
+import { TravelComponent } from './travel.component';
+import { AboutUsComponent } from './about-us.component';
+import { OurCoursesComponent } from './our-courses';
+import { ContactUsComponent } from './contact-us.component';
 
 
 @NgModule({
@@ -31,7 +38,14 @@ import { FormsModule } from '@angular/forms';
     HeaderComponent,
     FooterComponent,
     LoginComponent,
-    ToggleBarComponent 
+    ToggleBarComponent,
+    ExploreComponent,
+    LearnComponent,
+    ElearningComponent,
+    TravelComponent,
+    AboutUsComponent,
+    OurCoursesComponent,
+    ContactUsComponent
   
 
   ],
