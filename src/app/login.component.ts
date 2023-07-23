@@ -30,7 +30,3 @@ export class LoginComponent {
   }
 }
 
-/* ngSubmit = false;
-login() {
-  this.ngSubmit = true;
-} */

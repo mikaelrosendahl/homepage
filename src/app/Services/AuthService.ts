@@ -8,7 +8,6 @@ import { HttpClient } from '@angular/common/http';
 export class AuthService {
   private apiUrl = 'https://localhost:7101/api'; // Replace with your API endpoint URL
 
-
   constructor(private http: HttpClient) { }
 
   login(username: string, password: string) {

@@ -3,7 +3,8 @@
 <form (ngSubmit)="onSubmit()">
     <input type="text" [(ngModel)]="username" name="username" placeholder="Username" required>
     <input type="password" [(ngModel)]="password" name="password" placeholder="Password" required>
-    <button type="submit">Login</button>
+    <button class="black-btn" type="submit">Login</button>
+    <button class="blue-btn" type="submit">Create User</button>
   </form>
   <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
 
