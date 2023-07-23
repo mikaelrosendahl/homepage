@@ -1,0 +1,23 @@
+<!-- create-user.component.html -->
+<div>
+    <h2>Create User</h2>
+    <form (ngSubmit)="onSubmit()">
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" [(ngModel)]="user.username" name="username" >
+      </div>
+  
+      <div>
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" [(ngModel)]="user.email" name="email" > <!--required-->
+      </div>
+  
+      <div>
+        <label for="password">Password:</label>
+        <input type="text" id="password" [(ngModel)]="user.password" name="password" > <!--required-->
+      </div>
+  
+      <button type="submit">Create User</button>
+    </form>
+  </div>
+  
