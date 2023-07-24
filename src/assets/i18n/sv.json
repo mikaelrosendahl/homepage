@@ -5,7 +5,8 @@
         "COURSES": "Kurser",
         "CONTACT": "Kontakt",
         "LANGUAGE": "Välj språk:",
-        "LOGIN": "Logga in"
+        "LOGIN": "Logga in",
+        "CREATE_USER": "Skapa användare"
     },
 
     "HOME": {

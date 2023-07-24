@@ -24,6 +24,9 @@ import { TravelComponent } from './travel.component';
 import { AboutUsComponent } from './about-us.component';
 import { OurCoursesComponent } from './our-courses';
 import { ContactUsComponent } from './contact-us.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { CreateUserComponent } from './create-user.component';
+
 
 
 @NgModule({
@@ -45,7 +48,9 @@ import { ContactUsComponent } from './contact-us.component';
     TravelComponent,
     AboutUsComponent,
     OurCoursesComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    CreateUserComponent
+   
   
 
   ],
@@ -53,6 +58,7 @@ import { ContactUsComponent } from './contact-us.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule, 
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {
