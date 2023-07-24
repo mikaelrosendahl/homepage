@@ -5,7 +5,8 @@
         "COURSES": "Courses",
         "CONTACT": "Contact",
         "LANGUAGE": "Select language",
-        "LOGIN": "Login"
+        "LOGIN": "Login",
+        "CREATE_USER": "Create User"
     },
     "HOME": {
         "TEXTROW_1": "Since our opening, we have become masters of our craft.",
