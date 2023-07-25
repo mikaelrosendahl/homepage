@@ -2,7 +2,7 @@
 
 .content {
     height: 10rem;
-    background-color: $primary;  
+    background-color: transparent;  
 }
 
 .bg-color-prim {
@@ -13,9 +13,9 @@
 }
 .text {
     font: 1em sans-serif;
-    
+    color: $secondary;
     height: 4rem;
-    width: 612px;
+    width: 412px;
     text-align: center;
     background-color: $primary;
 }
