@@ -8,7 +8,7 @@ import { TranslateService } from '@ngx-translate/core';
 })
 
 export class MenuComponent {
-  currentLanguage: string;
+  /* currentLanguage: string;
   switchLanguage() {
     const lang = this.currentLanguage === 'sv' ? 'en' : 'sv';
     this.translateService.use(lang);
@@ -24,6 +24,6 @@ export class MenuComponent {
   showMenu: boolean = true;
   toogleList() {
     this.showMenu = !this.showMenu;
-  }
+  } */
 
 }
