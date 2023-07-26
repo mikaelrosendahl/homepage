@@ -1,0 +1,17 @@
+/* shared-layout.component.css */
+.black-caret {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid black; /* Black caret */
+  pointer-events: none; /* This prevents the caret from capturing mouse events */
+}
+
+.dropdown-placeholder {
+  position: relative;
+  margin-top: 30px; /* Adjust the margin as needed to create space for the dropdown */
+}

@@ -1,3 +1,7 @@
+<app-shared-layout>
+  <button (click)="toggleDropdown()">Toggle Dropdown</button>
+  <app-menu *ngIf="showDropdown"></app-menu>
+</app-shared-layout>
 
 <router-outlet></router-outlet>
 <app-explore></app-explore>
