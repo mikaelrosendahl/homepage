@@ -26,6 +26,7 @@ import { OurCoursesComponent } from './our-courses';
 import { ContactUsComponent } from './contact-us.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { CreateUserComponent } from './create-user.component';
+import { WordPressComponent } from './components/wordpress.component';
 
 
 
@@ -49,7 +50,8 @@ import { CreateUserComponent } from './create-user.component';
     AboutUsComponent,
     OurCoursesComponent,
     ContactUsComponent,
-    CreateUserComponent
+    CreateUserComponent,
+    WordPressComponent
    
   
 
