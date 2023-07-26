@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { WordpressService } from 'src/app/services/Wordpress.service';
+import { WordpressService } from 'src/app/services/wordpress.service';
 
 @Component({
   selector: 'app-wordpress',

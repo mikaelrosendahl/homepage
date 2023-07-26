@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class WordpressService{
-  private readonly apiUrl = 'https://explorationunlimited1.wordpress.com/wp-json/wp/v2/';
+  private readonly apiUrl = '/wordpress/wp-json/wp/v2/';
   
   constructor(private http: HttpClient) { }
 

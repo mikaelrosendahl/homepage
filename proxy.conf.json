@@ -1,0 +1,11 @@
+{
+    "/wordpress": {
+      "target": "https://explorationunlimited1.wordpress.com",
+      "secure": false,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/wordpress": ""
+      }
+    }
+  }
+  
