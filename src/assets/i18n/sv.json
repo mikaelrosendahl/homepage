@@ -5,8 +5,9 @@
         "COURSES": "Kurser",
         "CONTACT": "Kontakt",
         "LANGUAGE": "Välj språk:",
-        "LOGIN": "Logga in",
-        "CREATE_USER": "Skapa användare"
+        "CREATE_USER": "Skapa användare",
+        "LOGIN": "Logga in"
+    
     },
 
     "HOME": {
@@ -18,6 +19,20 @@
     },
 
     "BUTTON": {
+    "LOGIN": "Logga in",
     "READ_MORE": "Läs mer"
+    },
+
+    "FORM_LABEL": {
+        "EMAIL": "Email:",
+        "EMAIL_ADDRESS": "Email adress:",
+        "EMAILHELP": "Vi delar aldrig din e-post med någon annan.",
+        "PASSWORD": "Lösenord:",
+        "CONFIRM_PASSWORD": "Bekräfta lösenord",
+        "SAVE_LOGIN": "Spara login?",
+        "SUBMIT": "Skicka"
     }
+
+
+
 }

@@ -13,21 +13,42 @@
     /* Add some border-radius to give a rounded appearance */
 } 
 
-.blue-btn {
+.btn-primary {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 1rem;
     border-style: none;
     font-weight: 700;
     padding: 10px 22px 10px 21px;
-    background-color: blue; 
+    background-color: #007bff; 
+    border-color: #007bff;
     /* Replace with your desired background color */
      color: #fff; 
     /* Replace with your desired text color */
     border-radius: 4px; 
     /* Add some border-radius to give a rounded appearance */
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: #0056b3;
+    }
 } 
 
+/* .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: #0056b3;
+    } 
+}*/
 .transparent-btn {
     text-transform: uppercase;
     letter-spacing: 3px;
