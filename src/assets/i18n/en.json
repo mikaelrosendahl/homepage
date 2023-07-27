@@ -5,8 +5,8 @@
         "COURSES": "Courses",
         "CONTACT": "Contact",
         "LANGUAGE": "Select language",
-        "LOGIN": "Login",
-        "CREATE_USER": "Create User"
+        "CREATE_USER": "Create User",
+        "LOGIN": "Login"
     },
 
     "HOME": {
@@ -18,6 +18,18 @@
     },
 
     "BUTTON":{
+        "LOGIN": "Login",
         "READ_MORE": "Read more"
-    } 
+    },
+
+    "FORM_LABEL": {
+        "EMAIL": "Email:",
+        "EMAIL_ADDRESS": "Email address:",
+        "EMAILHELP": "We'll never share your email with anyone else.",
+        "PASSWORD": "Password:",
+        "CONFIRM_PASSWORD": "Confirm password",
+        "SAVE_LOGIN": "Save login?",
+        "SUBMIT": "Submit"
+  
+    }
 }

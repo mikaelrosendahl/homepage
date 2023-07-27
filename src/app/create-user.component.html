@@ -1,23 +1,19 @@
-<!-- create-user.component.html -->
-<div>
-    <h2>Create User</h2>
-    <form (ngSubmit)="onSubmit()">
-      <div>
-        <label for="username">Username:</label>
-        <input type="text" id="username" [(ngModel)]="user.username" name="username" >
-      </div>
-  
-      <div>
-        <label for="email">E-mail:</label>
-        <input type="text" id="email" [(ngModel)]="user.email" name="email" > <!--required-->
-      </div>
-  
-      <div>
-        <label for="password">Password:</label>
-        <input type="text" id="password" [(ngModel)]="user.password" name="password" > <!--required-->
-      </div>
-  
-      <button type="submit">Create User</button>
-    </form>
-  </div>
-  
+
+
+  <form class="createUser"(ngSubmit)="onSubmit()">
+    <h1>CREATE USER</h1>
+    <div class="mb-3">
+      <label for="email" class="form-label">{{'FORM_LABEL.EMAIL_ADDRESS' | translate }}</label>
+      <input type="email" class="form-control" id="emailHelp" [(ngModel)]="user.email" name="email" aria-describedby="emailHelp" required>
+      <div id="emailHelp" class="form-text">{{'FORM_LABEL.EMAILHELP' | translate }}</div>
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">{{'FORM_LABEL.PASSWORD' | translate }}</label>
+      <input type="password" class="form-control" id="password" [(ngModel)]="user.password" name="password" required>
+    </div>
+    <div class="mb-3">
+      <label for="confirmPassword" class="form-label">{{'FORM_LABEL.CONFIRM_PASSWORD' | translate }}</label>
+      <input type="confirmPassword" class="form-control" id="confirmPassword" [(ngModel)]="user.confirmPassword" name="confirmPassword" >
+    </div>
+    <button type="submit" class="btn-primary text-white">{{'FORM_LABEL.SUBMIT' | translate }}</button>
+  </form>
