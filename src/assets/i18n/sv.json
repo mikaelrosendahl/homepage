@@ -10,10 +10,14 @@
     },
 
     "HOME": {
-        "TEXTROW_1": "Sedan vi öppnade har vi blivit mästare i vårt hantverk.",
-		"TEXTROW_2": "Vårt engagemang för kvalitetsprodukter, exceptionella tjänster",
-		"TEXTROW_3": "och oöverträffad kundvård håller vårt samhälle", 
-		"TEXTROW_4": "kommer tillbaka igen och igen.",
-        "READ_MORE": "Läs mer"
+        "TEXTROW_1": "Ge dig ut på oförglömliga undervattensäventyr med Exploration Unlimited!",
+		"TEXTROW_2": "Vår erfarenhet av att utbilda dykare samt underhåll av dykutrustning,",
+		"TEXTROW_3": "kombinerat med engagemang för kvalitetsprodukter, exceptionella tjänster,", 
+		"TEXTROW_4": "och oöverträffad kundvård, gör att våra kunder fortsätter att återkomma!"
+       
+    },
+    
+    "BUTTON": {
+    "READ_MORE": "Läs mer"
     }
 }

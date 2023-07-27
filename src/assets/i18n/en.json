@@ -8,12 +8,16 @@
         "LOGIN": "Login",
         "CREATE_USER": "Create User"
     },
-    "HOME": {
-        "TEXTROW_1": "Since our opening, we have become masters of our craft.",
-		"TEXTROW_2": "Our commitment to quality products, execeptional services",
-		"TEXTROW_3": "and incomperable cutomer care keep our community", 
-		"TEXTROW_4": "coming back again and again.",
-        "READ_MORE": "Read more"
 
-    }
+    "HOME": {
+        "TEXTROW_1": "Embark on unforgettable ocean adventures with Exploration!",
+		"TEXTROW_2": "Our mastery in scuba diving courses and dive gear maintenance, ",
+		"TEXTROW_3": "combined with a passion for quality products, exceptional services,", 
+		"TEXTROW_4": "and unmatched customer care, keeps our community returning for more!"
+    
+    },
+
+    "BUTTON":{
+        "READ_MORE": "Read more"
+    } 
 }
