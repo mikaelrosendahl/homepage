@@ -5,15 +5,31 @@
         "COURSES": "Courses",
         "CONTACT": "Contact",
         "LANGUAGE": "Select language",
-        "LOGIN": "Login",
-        "CREATE_USER": "Create User"
+        "CREATE_USER": "Create User",
+        "LOGIN": "Login"
     },
-    "HOME": {
-        "TEXTROW_1": "Since our opening, we have become masters of our craft.",
-		"TEXTROW_2": "Our commitment to quality products, execeptional services",
-		"TEXTROW_3": "and incomperable cutomer care keep our community", 
-		"TEXTROW_4": "coming back again and again.",
-        "READ_MORE": "Read more"
 
+    "HOME": {
+        "TEXTROW_1": "Embark on unforgettable ocean adventures with Exploration Unlimited.",
+		"TEXTROW_2": "Our mastery in scuba diving courses and dive gear maintenance, ",
+		"TEXTROW_3": "combined with a passion for quality products, exceptional services,", 
+		"TEXTROW_4": "and unmatched customer care, keeps our community returning again and again!"
+    
+    },
+
+    "BUTTON":{
+        "LOGIN": "Login",
+        "READ_MORE": "Read more"
+    },
+
+    "FORM_LABEL": {
+        "EMAIL": "Email:",
+        "EMAIL_ADDRESS": "Email address:",
+        "EMAILHELP": "We'll never share your email with anyone else.",
+        "PASSWORD": "Password:",
+        "CONFIRM_PASSWORD": "Confirm password",
+        "SAVE_LOGIN": "Save login?",
+        "SUBMIT": "Submit"
+  
     }
 }

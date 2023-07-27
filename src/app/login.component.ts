@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AuthService } from './Services/AuthService';
+import { AuthService } from './services/AuthService';
 
 @Component({
   selector: 'app-login',
@@ -9,14 +9,14 @@ import { AuthService } from './Services/AuthService';
 
 export class LoginComponent {
   
-  username: string = '';
+  email: string = '';
   password: string = '';
   errorMessage: string = '';
 
   constructor(private authService: AuthService) { }
 
   onSubmit() {
-    this.authService.login(this.username, this.password)
+    this.authService.login(this.email, this.password)
       .subscribe(
         () => {
           // Redirect to the desired page or perform any necessary actions

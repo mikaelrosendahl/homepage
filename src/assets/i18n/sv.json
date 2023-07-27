@@ -5,15 +5,34 @@
         "COURSES": "Kurser",
         "CONTACT": "Kontakt",
         "LANGUAGE": "Välj språk:",
-        "LOGIN": "Logga in",
-        "CREATE_USER": "Skapa användare"
+        "CREATE_USER": "Skapa användare",
+        "LOGIN": "Logga in"
+    
     },
 
     "HOME": {
-        "TEXTROW_1": "Sedan vi öppnade har vi blivit mästare i vårt hantverk.",
-		"TEXTROW_2": "Vårt engagemang för kvalitetsprodukter, exceptionella tjänster",
-		"TEXTROW_3": "och oöverträffad kundvård håller vårt samhälle", 
-		"TEXTROW_4": "kommer tillbaka igen och igen.",
-        "READ_MORE": "Läs mer"
+        "TEXTROW_1": "Ge dig ut på oförglömliga undervattensäventyr med Exploration Unlimited.",
+		"TEXTROW_2": "Vår erfarenhet av att utbilda dykare samt underhåll av dykutrustning,",
+		"TEXTROW_3": "kombinerat med engagemang för kvalitetsprodukter, exceptionella tjänster,", 
+		"TEXTROW_4": "och oöverträffad kundvård, gör att våra kunder ständigt fortsätter att återkomma!"
+       
+    },
+
+    "BUTTON": {
+    "LOGIN": "Logga in",
+    "READ_MORE": "Läs mer"
+    },
+
+    "FORM_LABEL": {
+        "EMAIL": "Email:",
+        "EMAIL_ADDRESS": "Email adress:",
+        "EMAILHELP": "Vi delar aldrig din e-post med någon annan.",
+        "PASSWORD": "Lösenord:",
+        "CONFIRM_PASSWORD": "Bekräfta lösenord",
+        "SAVE_LOGIN": "Spara login?",
+        "SUBMIT": "Skicka"
     }
+
+
+
 }

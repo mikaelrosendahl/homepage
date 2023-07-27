@@ -9,12 +9,12 @@ import { HttpClient } from '@angular/common/http';
 })
 export class CreateUserComponent {
   user: any = {
-    firstName: '',
-    lastName: '',
-    email: ''
+    email: '',
+    password: '',
+    confirmPassword: '',
   };
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
   onSubmit(): void {
     this.http.post<any>('https://localhost:7101/api/CreateUser', this.user).subscribe(
@@ -22,9 +22,9 @@ export class CreateUserComponent {
         console.log('User created successfully!', response);
         // Reset the form after successful submission
         this.user = {
-          username: '',
           email: '',
-          password: ''
+          password: '',
+          confirmPassword: '',
         };
       },
       error => {

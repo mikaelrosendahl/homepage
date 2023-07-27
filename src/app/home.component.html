@@ -22,7 +22,7 @@
                             <div class="collapse navbar-collapse justify-content-left ps-4">
                                 <ul class="navbar-nav gap-4">
                                     <li class="nav-item">
-                                        <a class="nav-link" routerLink="/home" aria-label="Home">{{'MENU.HOME' |
+                                        <a class="nav-link" routerLink="/" aria-label="Home">{{'MENU.HOME' |
                                             translate}}</a>
                                     </li>
                                     <li class="nav-item">
@@ -58,13 +58,15 @@
                             <a><img src="\assets\img\logo\Logo 250x61.png" alt="exploration logo"></a>
                         </div>
                         <div class="text pe-4">
-                            {{ 'HOME.TEXTROW_1' | translate }}
-                            {{ 'HOME.TEXTROW_2' | translate }}
-                            {{ 'HOME.TEXTROW_3' | translate }}
-                            {{ 'HOME.TEXTROW_4' | translate }}
+                            {{'HOME.TEXTROW_1' | translate }}
+                            {{'HOME.TEXTROW_2' | translate }}
+                            {{'HOME.TEXTROW_3' | translate }}
+                            {{'HOME.TEXTROW_4' | translate }}
                         </div>
                         <div class="mt-3">
-                            <button class="red-btn">{{ 'HOME.READ_MORE' | translate }}</button>
+                            <button class="red-btn" (click)="changePage()" title="Read more" aria-label="Select language">
+                                {{'BUTTON.READ_MORE' | translate }}
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -74,4 +76,12 @@
 
     </html>
 </nav>
+<app-explore></app-explore>
+<app-learn></app-learn>
+<app-e-learning></app-e-learning>
+<app-travel></app-travel>
+<app-about-us></app-about-us>
+<app-our-courses></app-our-courses>
+<app-contact-us></app-contact-us>
+<app-footer></app-footer>
 <router-outlet></router-outlet>
