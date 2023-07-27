@@ -1,23 +1,22 @@
 <!-- create-user.component.html -->
-<div>
-    <h2>Create User</h2>
-    <form (ngSubmit)="onSubmit()">
-      <div>
-        <label for="username">Username:</label>
-        <input type="text" id="username" [(ngModel)]="user.username" name="username" >
-      </div>
-  
-      <div>
-        <label for="email">E-mail:</label>
-        <input type="text" id="email" [(ngModel)]="user.email" name="email" > <!--required-->
-      </div>
-  
-      <div>
-        <label for="password">Password:</label>
-        <input type="text" id="password" [(ngModel)]="user.password" name="password" > <!--required-->
-      </div>
-  
-      <button type="submit">Create User</button>
-    </form>
-  </div>
-  
+
+  <form (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="emailHelp" [(ngModel)]="user.email" name="email" aria-describedby="emailHelp" required>
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">Password</label>
+      <input type="password" class="form-control" id="password" [(ngModel)]="user.password" name="password" required>
+    </div>
+    <div class="mb-3">
+      <label for="confirmPassword" class="form-label">Confirm Password</label>
+      <input type="confirmPassword" class="form-control" id="confirmPassword" [(ngModel)]="user.confirmPassword" name="confirmPassword" >
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>

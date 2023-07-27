@@ -1,10 +1,19 @@
 
 
 <form (ngSubmit)="onSubmit()">
-    <input type="text" [(ngModel)]="username" name="username" placeholder="Username" required>
+    <label for="email">Email:</label>
+    <input type="text" [(ngModel)]="email" name="email" placeholder="Email" required>
+    <br>
+    <label for="password">Password:</label>
     <input type="text" [(ngModel)]="password" name="password" placeholder="Password" required>
-    <button class="black-btn" type="submit">Login</button>
-    <button class="blue-btn" type="submit">Create User</button>
+    <br>
+    <input type="checkbox" />
+    <label>Save login?</label>
+    <br>
+    <button class="grey-btn" type="submit">Login</button>
+   
+    
+   <!--  <button class="blue-btn" type="submit">Create User</button> -->
   </form>
   <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
 
