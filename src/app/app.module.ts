@@ -8,7 +8,7 @@ import { AboutComponent } from './about.component';
 import { CoursesComponent } from './courses.component';
 import { ContactComponent } from './contact.component';
 import { PageNotFoundComponent } from './pagenotfound.component';
-import { MenuComponent } from './menu.component';
+import { MenuComponent } from './menu.components/menu.component';
 import { HeaderComponent } from './header.component';
 import { FooterComponent } from './footer.component';
 import { LoginComponent } from './login.component';
