@@ -3,10 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home.components/home.component';
-import { AboutComponent } from './home.components/about.component';
-import { CoursesComponent } from './home.components/courses.component';
-import { ContactComponent } from './home.components/contact.component';
+import { HomeComponent } from './home.component';
+import { AboutComponent } from './about.component';
+import { CoursesComponent } from './courses.component';
+import { ContactComponent } from './contact.component';
 import { PageNotFoundComponent } from './pagenotfound.component';
 import { MenuComponent } from './menu.components/menu.component';
 import { HeaderComponent } from './header.component';
@@ -25,7 +25,7 @@ import { AboutUsComponent } from './about-us.component';
 import { OurCoursesComponent } from './our-courses';
 import { ContactUsComponent } from './contact-us.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { CreateUserComponent } from './home.components/create-user.component';
+import { CreateUserComponent } from './create-user.component';
 import { PresentationComponent } from './presentation.component';
 
 
