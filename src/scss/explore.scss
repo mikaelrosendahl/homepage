@@ -1,16 +1,20 @@
 @import "variables";
 
+.explore-container {
+    background-color: $primary;
+}
 
+.img-explore {
 
-.bg-explore {
-  /*   height: 100vh;
+    height: 60vh;
+    width: 500px;
     /* Set the height of the container, adjust as needed */
-    background-image: url('/assets/img/exploration-pictures/wreck-black-n-white.jpg'); 
+    background-image: url('/assets/img/exploration-pictures/wreck-black-n-white.jpg');
     /* Path to your image relative to the assets folder */
-   /*  background-repeat: no-repeat; */
-   /*  background-size: cover; */
+    background-repeat: no-repeat;
+  
     /* Adjust as needed */
- /*    background-position: center center; */
+    background-position: center center;
 }
 
 .bg-black {
