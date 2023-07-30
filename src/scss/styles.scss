@@ -1,48 +1,12 @@
 @import 'variables';
+@import 'backgrounds';
+@import 'buttons';
+
 
 // Global styles
 
-.bg-color-prim {
-    background-color: $primary;
-}
 
-.bg-color-sec {
-    background-color: $secondary;
-}
 
-.bg-trans {
-    background-color: transparent;
-}
 
-.bg-color-white {
-    background-color: $white;
-}
 
-.photo-sm {
-    height: 100px;
-  }
-  
-  .photo-md {
-    height: 300px;
-  }
-  
-  .photo-lg {
-    height: 500px;
-  }
-
-  .photo-xl {
-    height: 700px;
-  }
-
-  .photo-xxl {
-    height: 900px;
-  }
-
-button {
-    padding: 0;
-    border: none;
-    background: none;
-    cursor: pointer;
-    outline: none;
-}
 
