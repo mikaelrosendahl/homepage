@@ -1,65 +1,23 @@
 <div class="container-fluid p-0">
    <div class="row m-0">
-      <div class="bg-black col-md-6 p-0">
-         <div class="d-flex justify-content-center">
-            <div class="content-explore d-flex flex-column justify-content-center align-items-center gap-3 ps-5">
+      <div class="bg-trans p-0">
+         <div class="img-explore">
+            <div class="d-flex justify-content-center">
+               <div class="content-explore d-flex flex-column justify-content-center align-items-center gap-3 ps-5">
 
-               <h1 class="h1">It´s time for Exploration</h1>
+                  <h1 class="h1">It´s Exploration time!</h1>
 
-               <div class="text-explore">
-                  {{'EXPLORE.TEXTROW_1' | translate }}
-                  {{'EXPLORE.TEXTROW_2' | translate }}
-                  {{'EXPLORE.TEXTROW_3' | translate }}
-                  {{'EXPLORE.TEXTROW_4' | translate }}
-               </div>
-               <div class="mt-3">
-                  <button class="red-btn" (click)="changePage()" title="Read more" aria-label="Select language">
-                     {{'BUTTON.READ_MORE' | translate }}
-                  </button>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="explore-container col-md-6 p-0">
-         <div class="d-flex justify-content-center">
-            <div class="content-explore d-flex flex-column justify-content-center align-items-center gap-3 pe-5">
-               <!-- <div class="img-explore"></div> -->
-               <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                  <ol class="carousel-indicators">
-                     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-                     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-                     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-                     <!-- Add more indicators for additional slides if needed -->
-                  </ol>
-                  <div class="carousel-inner">
-                     <div class="carousel-item active">
-                        <img src="/assets/img/exploration-pictures/wreck-black-n-white.jpg" class="d-block w-100"
-                           alt="Slide 1">
-                     </div>
-                     <div class="carousel-item">
-                        <img src="/assets/img/exploration-pictures/nice scuba pic.jpg" class="d-block w-100"
-                           alt="Slide 2">
-                     </div>
-                     <div class="carousel-item">
-                     <img src="/assets/img/exploration-pictures/diving silfra.jpg" class="d-block w-100" alt="Slide 3">
-                   </div> 
-                     <!-- Add more carousel items for additional slides if needed -->
+                  <div class="text-explore">
+                     {{'EXPLORE.TEXTROW_1' | translate }}
+                     {{'EXPLORE.TEXTROW_2' | translate }}
+                     {{'EXPLORE.TEXTROW_3' | translate }}
+                     {{'EXPLORE.TEXTROW_4' | translate }}
                   </div>
-                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev"
-                     data-bs-no-jquery="true">
-                     <span class="carousel-control-previos-icon" aria-hidden="true"></span>
-                     <span class="visually-hidden">First</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next"
-                     data-bs-no-jquery="true">
-                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                     <span class="visually-hidden">Second</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next"
-                     data-bs-no-jquery="true">
-                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                     <span class="visually-hidden">Third</span>
-                  </a>
+                  <div class="mt-3">
+                     <button class="red-btn" (click)="changePage()" title="Read more" aria-label="Select language">
+                        {{'BUTTON.READ_MORE' | translate }}
+                     </button>
+                  </div>
                </div>
             </div>
          </div>

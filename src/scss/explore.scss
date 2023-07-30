@@ -6,19 +6,15 @@
 
 .img-explore {
 
-    height: 60vh;
-    width: 500px;
+    height: 100vh;
+    
     /* Set the height of the container, adjust as needed */
-    background-image: url('/assets/img/exploration-pictures/wreck-black-n-white.jpg');
+    background-image: url('/assets/img/exploration-pictures/humphback.jpg');
     /* Path to your image relative to the assets folder */
     background-repeat: no-repeat;
-
+    background-size: cover;
     /* Adjust as needed */
     background-position: center center;
-}
-
-.bg-black {
-    background-color: $secondary;
 }
 
 .content-explore {
@@ -26,7 +22,7 @@
         //trebuchet //Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
         font-family: sans-serif;
         font-weight: bolder;
-        color: #646665
+        color: white;
     }
 
     height: 100vh;
@@ -49,7 +45,7 @@
 
 .text-explore {
     font: 1em sans-serif;
-    color: #646665;
+    color: white;
     height: 3rem;
     width: 512px;
     text-align: center;
