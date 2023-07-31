@@ -1,7 +1,14 @@
 @import 'variables';
 @import 'backgrounds';
 
-
+.bg-learn {
+    background-color: white;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Adjust as needed */
+    background-position: center center;
+}
 
 .learn-content-container {
     height: 300px;
@@ -12,7 +19,7 @@
 
 }
 
-.text-learn {
+/* .text-learn {
     font: 1em sans-serif;
     color: $primary;
     height: 200px;
@@ -21,25 +28,26 @@
     background: transparent;
     line-height: 1.4;
     /* Set the desired line height for more spacing between text rows */
-    border: 2px solid black;
+  /*  border: 2px solid black;*/
 
     
     /* Add a media query for smaller screens (e.g., smartphones) */
-    @media (min-width: 1200px) {
+  /*  @media (min-width: 1200px) {
         max-width: 800px;
         /* Set a larger maximum width for larger screens */
-        padding-left: 20px;
-        /* Adjust padding for larger screens if needed */
-    }
+      /*  padding-left: 20px;
+        /* Adjust padding for larger screens if needed 
+       
+    } */
   
        /* Add a media query for smaller screens (e.g., smartphones) */
-        @media (max-width: 768px) {
+        /*@media (max-width: 768px) {
             max-width: 90%;
             /* Set a different maximum width for smaller screens */
-            padding-left: 2opx;
-            /* Adjust padding for smaller screens if needed */
+           /* padding-left: 2opx;*/
+            /* Adjust padding for smaller screens if needed 
         }
-    }
+    } */
 
     .photo-learn {
         margin-top: 20px;
