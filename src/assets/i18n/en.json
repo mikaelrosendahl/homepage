@@ -17,6 +17,13 @@
     
     },
 
+    "EXPLORE": {
+        "TEXTROW_1": "Explore the hidden wonders of the seven seas, where a vibrant tapestry",
+        "TEXTROW_2": "of marine life awaits. Dive into the depths and uncover the mesmerizing ",
+        "TEXTROW_3": "beauty that lies beneath the waves. Embark on a journey of discovery,",
+        "TEXTROW_4": "as scuba divers, to witness the enchanting world of underwater marvels."
+    },
+
     "BUTTON":{
         "LOGIN": "Login",
         "READ_MORE": "Read more"

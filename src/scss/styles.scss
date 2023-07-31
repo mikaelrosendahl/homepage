@@ -1,20 +1,12 @@
 @import 'variables';
+@import 'backgrounds';
+@import 'buttons';
+
 
 // Global styles
 
-.bg-color-prim {
-    background-color: $primary;
-}
 
-.bg-color-sec {
-    background-color: $secondary;
-}
 
-button {
-    padding: 0;
-    border: none;
-    background: none;
-    cursor: pointer;
-    outline: none;
-}
+
+
 
