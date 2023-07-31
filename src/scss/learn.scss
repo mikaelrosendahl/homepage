@@ -50,19 +50,37 @@
     } */
 
     .photo-learn {
-        margin-top: 20px;
+        margin-top: 24px;
         margin-bottom: 20px;
         /* Add some spacing between photos */
-        height: 200px;
+        height: 300px;
         /* Set a fixed height for consistency */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+
     }
 
-    .photo-sm {
-        height: 100px;
+   .photo-mini {
+        height: 250px;
+        width: 50%;
+        position: relative;
+        overflow: hidden;
+
+    } 
+
+    .photo-maxi {
+        height: 350px;
     }
+   /*  .fill-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+      } */
 
     .photo-md {
         height: 300px;
