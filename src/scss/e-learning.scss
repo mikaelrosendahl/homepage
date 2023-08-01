@@ -15,6 +15,13 @@
   .photo-sm {
     height: 100px;
   }
+
+  .photo-mini {
+    height: 250px;
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
   
   .photo-md {
     height: 300px;
@@ -23,7 +30,20 @@
   .photo-lg {
     height: 500px;
   }
-  
+  .text-container {
+    height: 200px;
+}
+
+.text-learn {
+    font: 1em sans-serif;
+    color: $primary;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+    background: transparent;
+    line-height: 1.4;
+    /* Set the desired line height for more spacing between text rows */
+}
 
 /* .image-container {
     img {
