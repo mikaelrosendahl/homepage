@@ -19,16 +19,7 @@
 
 }
 
-/* .text-learn {
-    font: 1em sans-serif;
-    color: $primary;
-    height: 200px;
-    margin: 20px;
-    text-align: center;
-    background: transparent;
-    line-height: 1.4;
-    /* Set the desired line height for more spacing between text rows */
-  /*  border: 2px solid black;*/
+
 
     
     /* Add a media query for smaller screens (e.g., smartphones) */
@@ -58,7 +49,6 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-
     }
 
    .photo-mini {
@@ -72,26 +62,23 @@
     .photo-maxi {
         height: 350px;
     }
-
-    .border-container {
-
+ 
+    .text-container {
         height: 200px;
         width: 100%;
-        border-color: black;
-        border: 2px;
-        
-       
-    }
-   /*  .fill-image {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
-        position: absolute;
-        top: 0;
-        left: 0;
-      } */
+    } 
 
+ .text-learn {
+    font: 1em sans-serif;
+    color: $primary;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+    background: transparent;
+    line-height: 1.4;
+   /* Set the desired line height for more spacing between text rows */
+ }
+  
     .photo-md {
         height: 300px;
     }
