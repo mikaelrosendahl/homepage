@@ -1,0 +1,44 @@
+/* Style for the overlap content */
+.overlap-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6); /* Change the opacity and color as needed */
+    padding: 20px;
+    color: white;
+    text-align: center;
+    z-index: 1; /* The overlap content should be above the image (z-index 0) */
+  }
+  
+  /* Style the text inside the overlap content */
+  .overlap-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .overlap-content p {
+    font-size: 16px;
+  }
+
+  
+  /* <div class="container">
+  <div class="row">
+    <div class="col-md-4 position-relative">
+      <!-- Content for the first column -->
+      <img src="/path/to/your/image.jpg" alt="Image 1" class="img-fluid" />
+      <div class="overlap-content">
+        <h3>Overlapping Content</h3>
+        <p>This content overlaps the image in the first column.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <!-- Content for the second column -->
+      <img src="/path/to/your/image2.jpg" alt="Image 2" class="img-fluid" />
+    </div>
+    <div class="col-md-4">
+      <!-- Content for the third column -->
+      <img src="/path/to/your/image3.jpg" alt="Image 3" class="img-fluid" />
+    </div>
+  </div>
+</div> */
