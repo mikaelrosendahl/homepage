@@ -2,24 +2,55 @@
 @import 'backgrounds';
 
 .bg-learn {
-    background-color: white;
+    background-color: $grey;
     height: 100vh;
+
     background-repeat: no-repeat;
     background-size: cover;
     /* Adjust as needed */
     background-position: center center;
 }
 
-.learn-content-container {
+/* .learn-content-container {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+} */
+
+.photo-learn {
+    margin-top: 24px;
+    margin-bottom: 20px;
+    /* Add some spacing between photos */
     height: 300px;
     /* Set a fixed height for consistency */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
-/* .text-learn {
+.photo-mini {
+    height: 250px;
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.photo-md {
+    height: 300px;
+}
+
+.photo-maxi {
+    height: 350px;
+}
+
+.text-container {
+    height: 200px;
+}
+
+.text-learn {
     font: 1em sans-serif;
     color: $primary;
     height: 200px;
@@ -28,46 +59,4 @@
     background: transparent;
     line-height: 1.4;
     /* Set the desired line height for more spacing between text rows */
-  /*  border: 2px solid black;*/
-
-    
-    /* Add a media query for smaller screens (e.g., smartphones) */
-  /*  @media (min-width: 1200px) {
-        max-width: 800px;
-        /* Set a larger maximum width for larger screens */
-      /*  padding-left: 20px;
-        /* Adjust padding for larger screens if needed 
-       
-    } */
-  
-       /* Add a media query for smaller screens (e.g., smartphones) */
-        /*@media (max-width: 768px) {
-            max-width: 90%;
-            /* Set a different maximum width for smaller screens */
-           /* padding-left: 2opx;*/
-            /* Adjust padding for smaller screens if needed 
-        }
-    } */
-
-    .photo-learn {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        /* Add some spacing between photos */
-        height: 200px;
-        /* Set a fixed height for consistency */
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    .photo-sm {
-        height: 100px;
-    }
-
-    .photo-md {
-        height: 300px;
-    }
-
-    .photo-lg {
-        height: 500px;
-    }
+}
