@@ -4,8 +4,13 @@
 
 
 .e-learning {
-    
-    background-color: $white;
+  height: 42rem ;
+  max-width: 1280px; // Set your desired maximum width
+  margin: 0 auto;   // Center the container horizontally
+  padding-top: 50px;
+  
+  // Optional padding for better styling
+  background-color: $white;
 }
 
 .photo {
@@ -46,7 +51,7 @@
   
   .photo-md-right {
     height: 250px;
-    margin-top: 306px;
+    margin-top: 318px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
