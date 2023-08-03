@@ -1,12 +1,10 @@
 @import "variables";
 
 .contact-us {
-    height: 34rem; /* Set an appropriate height */
     height: 100vh;
     max-width: 1280px; // Set your desired maximum width
     margin: 0 auto;   // Center the container horizontally
-    padding: 20px;    // Optional padding for better styling
-    background: linear-gradient(to right, rgba(255, 255, 255, 1) 80%, rgba(0, 0, 0, 0.2) 20%);
+
   }
 
   .contact-form {
