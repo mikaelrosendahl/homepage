@@ -4,70 +4,48 @@
 
 
 .e-learning {
-  height: 100vh ;
+  height: 100vh;
   max-width: 1280px; // Set your desired maximum width
-  margin: 0 auto;   // Center the container horizontally
+  margin: 0 auto; // Center the container horizontally
 
   // Optional padding for better styling
   background-color: $white;
 }
 
-.photo {
-    height: 300px; /* Set a fixed height for consistency */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  
-.photo-e-learn {
+.photo-mini {
+  height: 200px;
+  width: 50%;
   margin-top: 24px;
   margin-bottom: 20px;
-  /* Add some spacing between photos */
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.photo-md-left {
   height: 300px;
-  /* Set a fixed height for consistency */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-  .photo-sm {
-    height: 100px;
-  }
-
-  .photo-mini {
-    height: 250px;
-    width: 50%;
-    position: relative;
-    overflow: hidden;
- 
-}
-
- .photo-md-left {
-  height: 300px;
-  margin-bottom: 20px;
- }
-  
-   .photo-md-right {
-    height: 250px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
- 
-  } 
-  
-  .text-container {
-    height: 100%;
+.photo-md-right {
+  height: 245px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .text-learn {
-    font: 1em sans-serif;
-    color: $primary;
-    height: 100%;
-    margin: 20px;
-    text-align: center;
-    background: transparent;
-    line-height: 1.4;
-    /* Set the desired line height for more spacing between text rows */
+  font: 1em sans-serif;
+  color: $primary;
+  height: 100%;
+  margin: 20px;
+  text-align: center;
+  background: transparent;
+  line-height: 1.4;
+  /* Set the desired line height for more spacing between text rows */
 }
-
