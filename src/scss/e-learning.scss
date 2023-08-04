@@ -4,11 +4,10 @@
 
 
 .e-learning {
-  height: 42rem ;
+  height: 100vh ;
   max-width: 1280px; // Set your desired maximum width
   margin: 0 auto;   // Center the container horizontally
-  padding-top: 50px;
-  
+
   // Optional padding for better styling
   background-color: $white;
 }
@@ -41,30 +40,30 @@
     width: 50%;
     position: relative;
     overflow: hidden;
-    margin-top: 48px;
+ 
 }
 
  .photo-md-left {
   height: 300px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
  }
   
-  .photo-md-right {
+   .photo-md-right {
     height: 250px;
-    margin-top: 318px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  }
+ 
+  } 
   
   .text-container {
-    height: 200px;
+    height: 100%;
 }
 
 .text-learn {
     font: 1em sans-serif;
     color: $primary;
-    height: 200px;
+    height: 100%;
     margin: 20px;
     text-align: center;
     background: transparent;
