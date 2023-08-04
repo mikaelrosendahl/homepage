@@ -1,8 +1,38 @@
 
 <h1>Contact Us</h1>
 <div class="contact-us">
-    <img src="/assets/img/exploration-pictures/zansibar beach.jpg">
- </div> 
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <form class="contact-form" (ngSubmit)="sendMessage()" #contactForm="ngForm">
+                    <h1>CONTACT US</h1>
+                    <h2>Sample text Click to select the text box Click again or dubbel click
+                        to start editing the text</h2>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="emailHelp" name="email"
+                            [(ngModel)]="formData.email" value="Enter a valid email address"
+                            aria-describedby="emailHelp" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="name" name="name" [(ngModel)]="formData.name"
+                            value="Enter your name" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="message" name="message" [(ngModel)]="formData.message"
+                            value="Enter your message" required></textarea>
+                    </div>
+                    <div class="d-flex justify-content-center mt-4">
+                        <button type="submit" class="black-btn">{{'FORM_LABEL.SUBMIT' | translate }}</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
 
+                <div class="photo-contact-us"
+                    style="background-image: url('/assets/img/exploration-pictures/zansibar beach.jpg');">
+                </div>
 
-  
+            </div>
+        </div>
+    </div>
+</div> <!--[(ngModel)]="formData.message-->

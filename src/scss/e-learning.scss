@@ -4,54 +4,39 @@
 
 
 .e-learning {
+  height: 100vh;
+  max-width: 1280px; // Set your desired maximum width
+  margin: 0 auto; // Center the container horizontally
 
-    background-color: $secondary;
+  // Optional padding for better styling
+  background-color: $white;
 }
 
-.photo {
-    height: 300px; /* Set a fixed height for consistency */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+.photo-mini {
+  height: 200px;
+  width: 50%;
+  margin-top: 24px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
-  .photo-sm {
-    height: 100px;
-  }
-
-  .photo-mini {
-    height: 250px;
-    width: 50%;
-    position: relative;
-    overflow: hidden;
-    margin-top: 48px;
 }
 
- .photo-md-left {
+.photo-md-left {
   height: 300px;
-  margin-bottom: 24px;
- }
-  
-  .photo-md-right {
-    height: 250px;
-    margin-top: 312px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  
-  .text-container {
-    height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.text-learn {
-    font: 1em sans-serif;
-    color: $primary;
-    height: 200px;
-    margin: 20px;
-    text-align: center;
-    background: transparent;
-    line-height: 1.4;
-    /* Set the desired line height for more spacing between text rows */
+.image-container {
+    img {
+        max-width: 100%; // Set the maximum width to 100% of the container
+        height: auto; // Allow the height to adjust automatically based on the aspect ratio
+        display: block; // Ensure the image behaves as a block element within the container
+    }
 }
 
