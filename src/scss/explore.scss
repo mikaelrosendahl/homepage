@@ -1,24 +1,19 @@
 @import "variables";
 
-.explore-container {
-    background-color: $secondary;
-}
 
-.img-explore {
 
+.bg-explore {
     height: 100vh;
-    
-    /* Set the height of the container, adjust as needed */
+    max-width:1280px;
+    margin: 0 auto;
     background-image: url('/assets/img/exploration-pictures/humphback.jpg');
-    /* Path to your image relative to the assets folder */
     background-repeat: no-repeat;
     background-size: cover;
-    /* Adjust as needed */
     background-position: center center;
 }
 
 .content-explore {
-    .h1 {
+    .h1-explore {
         //trebuchet //Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
         font-family: sans-serif;
         font-weight: bolder;

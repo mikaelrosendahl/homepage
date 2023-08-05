@@ -8,6 +8,7 @@ import { PageNotFoundComponent } from './pagenotfound.component';
 import { LoginComponent } from './home.components/login.component';
 import { CreateUserComponent } from './home.components/create-user.component';
 import { LearnComponent } from './learn.component';
+import { ExploreComponent } from './explore.component';
 
 
 
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'create-user', component: CreateUserComponent },
   { path: 'learn', component: LearnComponent },
+  { path: 'explore', component: ExploreComponent },
   { path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page 
 ];
 
