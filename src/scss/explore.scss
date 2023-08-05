@@ -1,38 +1,76 @@
 @import "variables";
 
+@media (min-width: 1240px) {
 
-
-.bg-explore {
-    height: 100vh;
-    max-width:1280px;
-    margin: 0 auto;
-    background-image: url('/assets/img/exploration-pictures/humphback.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.content-explore {
-
-    .h1-explore {
-        font-family: sans-serif;
-        font-weight: bolder;
-        color: white;
-
+    .bg-explore {
+        height: 100vh;
+        max-width: 1280px;
+        margin: 70px;
+        background-image: url('/assets/img/exploration-pictures/humphback.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 
-    height: 100vh;
-    background-color: transparent;
+    .content-explore {
+        height: 100vh;
+        background-color: transparent;
+
+        .h1-explore {
+            font-family: sans-serif;
+            font-weight: bolder;
+            color: white;
+
+        }
+      
+    }
+
+    .text-explore {
+        font: 1em sans-serif;
+        color: $white;
+        height: auto;
+        width: 70%;
+        text-align: center;
+        background-color: transparent;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    }
+
 }
 
-.text-explore {
-    font: 1em sans-serif;
-    color: $white;
-    height: 3rem;
-    width: 50%;
-    text-align: center;
-    background-color: transparent;
-    line-height: 1.4;
-    /* Set the desired line height for more spacing between text rows */
-    margin-bottom: 2rem;
+/* Medium screens (768px to 1239px) */
+@media (max-width: 1239px) and (min-width: 768px) {
+    .bg-explore {
+        height: 100vh;
+        max-width: 1280px;
+        margin: 70px;
+        background-image: url('/assets/img/exploration-pictures/humphback.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .content-explore {
+        height: 100vh;
+        background-color: transparent;
+
+        .h1-explore {
+            font-family: sans-serif;
+            font-weight: bolder;
+            color: white;
+
+        }
+      
+    }
+
+    .text-explore {
+        font: 1em sans-serif;
+        color: $white;
+        height: auto;
+        width: 70%;
+        text-align: center;
+        background-color: transparent;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    }
 }

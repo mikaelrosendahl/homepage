@@ -15,6 +15,6 @@ export class ExploreComponent {
     // Define the changePage() method here
     changePage(): void {
       // Use the router to navigate to a particular page
-      this.router.navigate(['/explore']);
+      this.router.navigate(['/travel']);
     }
 }
