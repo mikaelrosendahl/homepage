@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-e-learning',
-  templateUrl: './e-learning.component.html',
+  selector: 'app-learn',
+  templateUrl: './learn.component.html',
  
 })
 
-export class ElearningComponent {
+export class LearnComponent {
   constructor(private router: Router) {
     // Set the default language
   }
