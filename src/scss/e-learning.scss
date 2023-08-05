@@ -4,26 +4,6 @@
 
 
 .e-learning {
-  height: 100vh;
-  max-width: 1280px; // Set your desired maximum width
-  margin: 0 auto; // Center the container horizontally
-
-  // Optional padding for better styling
-  background-color: $white;
-}
-
-.photo-mini {
-  height: 200px;
-  width: 50%;
-  margin-top: 24px;
-  margin-bottom: 20px;
-  position: relative;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
 
 .photo-md-left {
   height: 300px;
@@ -32,11 +12,21 @@
   background-repeat: no-repeat;
 }
 
-.image-container {
-    img {
-        max-width: 100%; // Set the maximum width to 100% of the container
-        height: auto; // Allow the height to adjust automatically based on the aspect ratio
-        display: block; // Ensure the image behaves as a block element within the container
-    }
+.photo-md-right {
+  height: 245px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.text-learn {
+  font: 1em sans-serif;
+  color: $primary;
+  height: 100%;
+  margin: 20px;
+  text-align: center;
+  background: transparent;
+  line-height: 1.4;
+  /* Set the desired line height for more spacing between text rows */
 }
 

@@ -19,7 +19,6 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { ExploreComponent } from './explore.component';
 import { LearnComponent } from './learn.component';
-import { ElearningComponent } from './e-learning';
 import { TravelComponent } from './travel.component';
 import { AboutUsComponent } from './about-us.component';
 import { OurCoursesComponent } from './our-courses';
@@ -45,7 +44,6 @@ import { PresentationComponent } from './presentation.component';
     ToggleBarComponent,
     ExploreComponent,
     LearnComponent,
-    ElearningComponent,
     TravelComponent,
     AboutUsComponent,
     OurCoursesComponent,
