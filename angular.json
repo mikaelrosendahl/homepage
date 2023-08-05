@@ -74,8 +74,7 @@
             },
             "development": {
               "browserTarget": "Homepage:build:development",
-              "port": 4200,
-              "host": "192.168.1.4" 
+              "port": 4200
             }
           },
           "defaultConfiguration": "development"
