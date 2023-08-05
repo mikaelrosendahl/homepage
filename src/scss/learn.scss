@@ -1,10 +1,11 @@
 @import 'variables';
 @import 'overlap';
 
-.e-learning {
+.bg-learn {
   height: 100vh;
   max-width: 1280px; // Set your desired maximum width
-  margin: 0 auto; // Center the container horizontally
+  margin: 10px; // Center the container horizontally
+  padding: 20px;
   background-color: $white;
 }
 
@@ -15,7 +16,7 @@
   height: 300px;
   /* Set a fixed height for consistency */
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
@@ -49,7 +50,7 @@
 .text-learn {
   font: 1em sans-serif;
   color: $primary;
-  height: 100%;
+  height: auto;
   margin: 20px;
   text-align: center;
   background: transparent;
