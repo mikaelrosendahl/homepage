@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
 @Injectable({
     providedIn: 'root'
 })
-export class ContactFormService {
+export class ContactService {
     private apiUrl = 'https://localhost:7101/api/contact';
 
     constructor(private http: HttpClient) { }
