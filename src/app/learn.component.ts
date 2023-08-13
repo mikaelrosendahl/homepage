@@ -14,6 +14,6 @@ export class LearnComponent {
   // Define the changePage() method here
   changePage(): void {
     // Use the router to navigate to a particular page
-    this.router.navigate(['/learn']);
+    this.router.navigate(['/courses']);
   }
 }

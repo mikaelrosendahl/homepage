@@ -1,9 +1,23 @@
-$primary: black;
-$secondary: #EBE7D9;
+@import "variables";
 
-footer {
+/* Larger screens (1240px and up) */
+@media (min-width: 1240px) {
 
-        height: 15rem;
-        background-color: $primary;
-        color: $secondary
+        .bg-footer {
+                height: 30rem;
+                max-width: 1280px;
+                margin: 70px;
+                background-color: $sky-blue;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+        }
+
+        .footer-content {
+                height: 30rem;
+                background-color: transparent;
+
+
+
+        }
 }

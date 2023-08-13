@@ -1,56 +1,76 @@
 @import "variables";
 
-.explore-container {
-    background-color: $secondary;
-}
+@media (min-width: 1240px) {
 
-.img-explore {
-
-    height: 100vh;
-    
-    /* Set the height of the container, adjust as needed */
-    background-image: url('/assets/img/exploration-pictures/humphback.jpg');
-    /* Path to your image relative to the assets folder */
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* Adjust as needed */
-    background-position: center center;
-}
-
-.content-explore {
-    .h1 {
-        //trebuchet //Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-        font-family: sans-serif;
-        font-weight: bolder;
-        color: white;
+    .bg-explore {
+        height: 100vh;
+        max-width: 1280px;
+        margin: 70px;
+        background-image: url('/assets/img/exploration-pictures/humphback.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 
-    height: 100vh;
-    background-color: transparent;
+    .content-explore {
+        height: 100vh;
+        background-color: transparent;
 
-    /* Add a media query for larger screens (e.g., desktops) */
-    @media (min-width: 1200px) {
-        max-width: 800px;
-        /* Set a larger maximum width for larger screens */
-        /* Adjust padding for larger screens if needed */
+        .h1-explore {
+            font-family: sans-serif;
+            font-weight: bolder;
+            color: white;
+
+        }
+      
     }
 
-    /* Add a media query for smaller screens (e.g., smartphones) */
-    @media (max-width: 768px) {
-        max-width: 90%;
-        /* Set a different maximum width for smaller screens */
-        /* Adjust padding for smaller screens if needed */
+    .text-explore {
+        font: 1em sans-serif;
+        color: $white;
+        height: auto;
+        width: 70%;
+        text-align: center;
+        background-color: transparent;
+        line-height: 1.4;
+        margin-bottom: 1rem;
     }
+
 }
 
-.text-explore {
-    font: 1em sans-serif;
-    color: white;
-    height: 3rem;
-    width: 512px;
-    text-align: center;
-    background-color: transparent;
-    line-height: 1.4;
-    /* Set the desired line height for more spacing between text rows */
-    margin-bottom: 4rem;
+/* Medium screens (768px to 1239px) */
+@media (max-width: 1239px) and (min-width: 768px) {
+    .bg-explore {
+        height: 100vh;
+        max-width: 1280px;
+        margin: 70px;
+        background-image: url('/assets/img/exploration-pictures/humphback.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .content-explore {
+        height: 100vh;
+        background-color: transparent;
+
+        .h1-explore {
+            font-family: sans-serif;
+            font-weight: bolder;
+            color: white;
+
+        }
+      
+    }
+
+    .text-explore {
+        font: 1em sans-serif;
+        color: $white;
+        height: auto;
+        width: 70%;
+        text-align: center;
+        background-color: transparent;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    }
 }
