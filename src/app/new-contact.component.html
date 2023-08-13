@@ -8,10 +8,8 @@
             </div>
             <div class="col-md-6">
                 <div class="contact">
-                    <form class="contact-form" (ngSubmit)="submitForm(contact)" #contact="ngForm">
-                        <p class="custom-font">contact us</p>
-                        <p class="custom-font">Sample text Click to select the text box Click again or dubbel click
-                            to start editing the text</p>
+                    <div class="custom-font">contact us</div>
+                     <form class="contact-form" (ngSubmit)="submitForm(contact)" #contact="ngForm">
                         <div class="mb-3">
                             <input type="email" class="form-control" id="emailHelp" name="email"
                                 [(ngModel)]="formData.email" value="Enter a valid email address"
@@ -28,7 +26,7 @@
                         <div class="d-flex justify-content-center mt-4">
                             <button type="submit" class="black-btn">{{'FORM_LABEL.SUBMIT' | translate }}</button>
                         </div> 
-                    </form>
+                    </form> 
                 </div>
             </div>
         </div>
