@@ -11,10 +11,11 @@
         <div class="bg-contact-us">
             <div class="row">
                 <div class="col-md-6">
+                    <div class="overlap-img">
                     <form class="contact-form" (ngSubmit)="submitForm(contact)" #contact="ngForm">
-                        <h1>CONTACT US</h1>
-                        <h2>Sample text Click to select the text box Click again or dubbel click
-                            to start editing the text</h2>
+                        <p>CONTACT US</p>
+                        <p>Sample text Click to select the text box Click again or dubbel click
+                            to start editing the text</p>
                         <div class="mb-3">
                             <input type="email" class="form-control" id="emailHelp" name="email"
                                 [(ngModel)]="formData.email" value="Enter a valid email address"
@@ -28,10 +29,11 @@
                             <textarea class="form-control" id="message" name="message" [(ngModel)]="formData.message"
                                 value="Enter your message" required></textarea>
                         </div>
-                        <div class="d-flex justify-content-center mt-4">
+                      <!--   <div class="d-flex justify-content-center mt-4">
                             <button type="submit" class="black-btn">{{'FORM_LABEL.SUBMIT' | translate }}</button>
-                        </div>
+                        </div> -->
                     </form>
+                </div>
                 </div>
                 <div class="col-md-6">
                     <div class="photo-contact-us"></div>
