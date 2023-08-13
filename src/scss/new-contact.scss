@@ -1,14 +1,13 @@
 @import 'variables';
-
+@import 'fonts';
 
     .bg-new-contact {
         height: auto;
         max-width: 1280px;
         margin: 70px;
-    }
 
     .info {
-        height: 300px;
+        height: 450px;
         background-color: $blue-grey;
         background-repeat: no-repeat;
         background-size: cover;
@@ -16,13 +15,26 @@
     }
 
     .contact {
-      
-        height: 300px;
+        height: 450px;
         background-color: $ocean-turquoise;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        margin-left: -2rem; /* Negative margin to overlap by 0.5 column width */
+        position: relative; /* Establish relative positioning for absolute positioning */
+        z-index: 1; /* Adjust the z-index as needed */
     }
+    .contact-form {
+        margin-top: 70px;
+        height: 300px;
+      }
+      .custom-font {
+        font-family: 'Oswald', sans-serif;
+      }
+     
+}
+
+    
 
 
 

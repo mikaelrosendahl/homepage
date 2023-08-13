@@ -1,7 +1,7 @@
 @import "variables";
 
 
-@media (min-width: 1240px) {
+/* @media (min-width: 1240px) {
 
   .bg-contact-us {
     height: 100vh;
@@ -16,11 +16,11 @@
     top: 20%;
     left: 25%;
     transform: translate(-50%, -50%, -50%);
-    background-color: rgba(255, 255, 255, 1); /* Change the opacity and color as needed */
+    background-color: rgba(255, 255, 255, 1); /* Change the opacity and color as needed 
     padding: 20px;
     color: black;
     text-align: center;
-    z-index: 1; /* The overlap content should be above the image (z-index 0) */
+    z-index: 1; /* The overlap content should be above the image (z-index 0) 
   }
   
 
@@ -37,7 +37,7 @@
 
 }
 
-/* Medium screens (768px to 1239px) */
+/* Medium screens (768px to 1239px) 
 @media (max-width: 1239px) and (min-width: 768px) {
   .bg-contact-us {
     height: 100vh;
@@ -61,4 +61,4 @@
  
   }
 
-}
+} */
