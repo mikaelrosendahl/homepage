@@ -1,0 +1,28 @@
+@import 'variables';
+
+
+    .bg-new-contact {
+        height: auto;
+        max-width: 1280px;
+        margin: 70px;
+    }
+
+    .info {
+        height: 300px;
+        background-color: $blue-grey;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .contact {
+      
+        height: 300px;
+        background-color: $ocean-turquoise;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+
