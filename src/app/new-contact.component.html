@@ -3,23 +3,29 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="info">
-                    <h2 class="header">LOCATION</h2>
+                    <div class="infotext">
+                    <h2>LOCATION</h2>
+                    <p>28 Jacksson Blvd Ste 1020 Chicago<br>
+                        Ill 60604-2340<br>
+                        <strong>FOLLOW US<br></strong>
+                    </p>
+                    <p>Social media icons<br></p>
+                    <p>2023 Privacy Policy</p>
+                </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="contact">
-                    <div class="d-flex">
-                
-                    </div>
                     <form class="contact-form" (ngSubmit)="submitForm(contact)" #contact="ngForm">
                         <div class="custom-font">contact us</div>
                         <div class="mb-3 mt-3">
                             <input type="email" class="form-control" id="emailHelp" [(ngModel)]="formData.email"
-                                name="email" placeholder="Enter a valid email address" aria-describedby="emailHelp" required>
+                                name="email" placeholder="Enter a valid email address" aria-describedby="emailHelp"
+                                required>
                         </div>
                         <div class="mb-3">
-                            <input type="name" class="form-control" id="name" [(ngModel)]="formData.name"
-                                name="name" required placeholder="Enter your Name" >
+                            <input type="name" class="form-control" id="name" [(ngModel)]="formData.name" name="name"
+                                required placeholder="Enter your Name">
                         </div>
                         <div class="mb-3">
                             <textarea class="form-control custom-textarea" id="message" name="message"
