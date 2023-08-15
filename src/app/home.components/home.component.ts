@@ -25,11 +25,7 @@ export class HomeComponent {
     // Define the changePage() method here
     changePage(): void {
       // Use the router to navigate to a particular page
-<<<<<<< HEAD:src/app/home.components/home.component.ts
-      this.router.navigate(['/learn']);
-=======
       this.router.navigate(['/explore']);
->>>>>>> new-dev:src/app/home.component.ts
     }
   showMenu: boolean = true;
   toogleList() {

@@ -17,7 +17,7 @@ button {
     /* Replace with your desired background color */
      color: #fff; 
     /* Replace with your desired text color */
-    border-radius: 4px; 
+ 
     /* Add some border-radius to give a rounded appearance */
 } 
 
@@ -33,7 +33,7 @@ button {
     /* Replace with your desired background color */
      color: #fff; 
     /* Replace with your desired text color */
-    border-radius: 4px; 
+  
     /* Add some border-radius to give a rounded appearance */
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
@@ -44,19 +44,20 @@ button {
 } 
 
 .transparent-btn {
+    
     text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 1rem;
+    text-align: center;
     border-style: none;
-    border: 1px solid black;
-    font-weight: 700;
-    padding: 10px 22px 10px 21px;
+    border: 2px solid #fff;
+    font-weight: 400;
+    padding: 8px 24px 8px 24px;
     background-color: transparent; 
-    /* Replace with your desired background color */
      color: #fff; 
-    /* Replace with your desired text color */
-    border-radius: 4px; 
-    /* Add some border-radius to give a rounded appearance */
+     border-style: solid;
+     background-image: none;
+     font-size: 0.875rem;
+     letter-spacing: 4px;
+    
 }
 
 .black-btn {
@@ -70,7 +71,7 @@ button {
     /* Replace with your desired background color */
      color: #fff; 
     /* Replace with your desired text color */
-    border-radius: 4px; 
+   
     /* Add some border-radius to give a rounded appearance */
 }
 
@@ -85,6 +86,6 @@ button {
     /* Replace with your desired background color */
      color: #fff; 
     /* Replace with your desired text color */
-    border-radius: 4px; 
+   
     /* Add some border-radius to give a rounded appearance */
 }

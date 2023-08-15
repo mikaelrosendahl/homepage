@@ -10,6 +10,7 @@ import { CreateUserComponent } from './home.components/create-user.component';
 import { LearnComponent } from './learn.component';
 import { ExploreComponent } from './explore.component';
 import { TravelComponent } from './travel.component';
+import { MessageComponent } from './new-contact.component';
 
 
 
@@ -17,7 +18,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent, },
   { path: 'about', component: AboutComponent },
   { path: 'courses', component: CoursesComponent },
-  { path: 'contact', component: ContactComponent },
+  { path: 'new-contact', component: MessageComponent },
   { path: 'login', component: LoginComponent },
   { path: 'create-user', component: CreateUserComponent },
   { path: 'learn', component: LearnComponent },
