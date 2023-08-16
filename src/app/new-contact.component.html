@@ -16,6 +16,7 @@
             </div>
             <div class="col-md-6">
                 <div class="contact">
+                    <div class="d-flex">
                     <form class="contact-form" (ngSubmit)="submitForm(contact)" #contact="ngForm">
                         <div class="custom-font">contact us</div>
                         <div class="mb-3 mt-3">
@@ -33,6 +34,7 @@
                         </div>
                         <button type="submit" class="transparent-btn text-white">{{'FORM_LABEL.SUBMIT' | translate}}</button>
                     </form>
+                </div>
                 </div>
             </div>
         </div>

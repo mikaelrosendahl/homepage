@@ -1,5 +1,7 @@
 @import 'variables';
 @import 'fonts';
+@import 'bootstrap/scss/bootstrap';
+
 
     .bg-new-contact {
         height: auto;
@@ -31,10 +33,10 @@
     .contact-form {
         margin-top: 50px;
         margin-bottom: 50px;
-        margin-right: 80px;
+        margin-right: 40px;
         margin-left: 40px;
         height: 300px;
-
+        width: 500px;
 
         .form-control {
             border-radius: 0;
@@ -64,9 +66,9 @@
         color: $turquoise-ultralight;
       }  
 }
-
+    
     .custom-placeholder::placeholder {
-        color: #999;
+        color: black;
         font-style: italic;
     }
 
