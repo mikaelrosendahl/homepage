@@ -8,9 +8,6 @@
             </div>
             <div class="col-md-6">
                 <div class="contact">
-                    <div class="d-flex">
-                
-                    </div>
                     <form class="contact-form" (ngSubmit)="submitForm(contact)" #contact="ngForm">
                         <div class="custom-font">contact us</div>
                         <div class="mb-3 mt-3">
@@ -25,14 +22,10 @@
                             <textarea class="form-control custom-textarea" id="message" name="message"
                                 [(ngModel)]="formData.message" required placeholder="Enter your message"></textarea>
                         </div>
-                        <button type="submit" class="transparent-btn text-white">{{'FORM_LABEL.SUBMIT' | translate
-                            }}</button>
+                        <button type="submit" class="transparent-btn text-white">{{'FORM_LABEL.SUBMIT' | translate}}</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!--  [(ngModel)]="formData.email" value="Enter a valid email address"
-
-(ngSubmit)="submitForm(contact)" #contact="ngForm"-->
