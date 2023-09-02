@@ -23,7 +23,7 @@
     z-index: 1; /* The overlap content should be above the image (z-index 0) */
   }
   
-
+ }
 
   .photo-contact-us {
     margin-top: 70px;
@@ -40,31 +40,6 @@
     max-width: 1280px;
     margin: 70px;
 
-  }
-
-
-  .overlap-img {
-    position: relative;
-    top: 20%;
-    left: 25%;
-    transform: translate(-50%, -50%, -50%);
-    background-color: rgba(255, 255, 255, 1); /* Change the opacity and color as needed */
-    padding: 20px;
-    color: black;
-    text-align: center;
-    z-index: 1; /* The overlap content should be above the image (z-index 0) */
-  }
-  
-
-
-  .photo-contact-us {
-    margin-top: 70px;
-    height: 400px;
-    background-image: url('/assets/img/exploration-pictures/zansibar beach.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
- 
   }
 
 /* Medium screens (768px to 1239px) */
@@ -92,4 +67,3 @@
   }
 
 } 
- }
