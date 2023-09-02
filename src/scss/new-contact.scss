@@ -3,20 +3,43 @@
 @import 'bootstrap/scss/bootstrap';
 
 
-    .bg-new-contact {
-        height: auto;
-        max-width: 1280px;
-        margin: 70px;
+.bg-new-contact {
+    height: auto;
+    max-width: 1280px;
+    margin: 70px;
 
-    .info {
+    .info-container {
         height: 450px;
         background-color: $secondary;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
-    .header {
-     color: $ocean-turquoise;
+
+    .info-text {
+        height: 250px;
+        margin-top: 40px;
+        margin-left: 20px;
+
+        h1 {
+            font-family: "Oswald", sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            color: $ocean-turquoise;
+            // Other header styles...
+        }
+
+        .paragraph-section {
+            p {
+                font-size: 12px;
+                color: $ocean-turquoise; 
+                line-height: 1;
+                margin-bottom: 10px;
+                // Other paragraph text styles...
+            }
+        }
+
+
     }
 
     .contact {
@@ -25,10 +48,14 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        margin-left: -4rem; /* Negative margin to overlap by 0.5 column width */
-        position: relative; /* Establish relative positioning for absolute positioning */
-        z-index: 1; /* Adjust the z-index as needed */
+        margin-left: -4rem;
+        /* Negative margin to overlap by 0.5 column width */
+        position: relative;
+        /* Establish relative positioning for absolute positioning */
+        z-index: 1;
+        /* Adjust the z-index as needed */
     }
+
     .contact-form {
         margin-top: 50px;
         margin-bottom: 50px;
@@ -44,32 +71,27 @@
             transition: border-color 0.2s ease-in-out;
             font-size: 0.75rem;
             background-color: $white;
-        
-            &:focus {
-              outline: none;
-              border-color: #007bff;
-              box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-            }
-      }
 
-      .placeholder-text::placeholder {
-        color: $grey
+            &:focus {
+                outline: none;
+                border-color: #007bff;
+                box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+            }
         }
-        /* Custom styles */
-    .custom-textarea {
-        width: 100%; /* Adjust the width as needed */
-        height: 86px; /* Adjust the height as needed */
+
+        .placeholder-text::placeholder {
+            color: $grey
+        }
+
+        .custom-textarea {
+            width: 100%;
+            height: 86px;
+        }
     }
-    
-    }
+
     .custom-font {
         font-family: 'Oswald', sans-serif !important;
         font-size: 3rem;
         color: $turquoise-ultralight;
-      }  
+    }
 }
-
-    
-
-
-
