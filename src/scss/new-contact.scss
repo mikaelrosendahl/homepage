@@ -22,7 +22,7 @@
         padding-left: 20px; */
 
         // Text alignment
-        text-align: center;
+        text-align: left;
 
         // Margin and padding for spacing
        /*  margin-top: 20px; */
@@ -41,7 +41,6 @@
             font-size: 24px;
             font-weight: bold;
             color: $ocean-turquoise;
-            // Other header styles...
         }
 
         .paragraph-section {
@@ -50,7 +49,6 @@
                 color: $ocean-turquoise;
                 line-height: 1;
                 margin-bottom: 10px;
-                // Other paragraph text styles...
             }
         }
 
