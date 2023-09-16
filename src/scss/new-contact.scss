@@ -18,40 +18,31 @@
 
     .info-text {
         height: 250px;
-        /*   padding-top: 40px;
-        padding-left: 20px; */
-
-        // Text alignment
         text-align: left;
-
-        // Margin and padding for spacing
-       /*  margin-top: 20px; */
+        margin-left: 80px;
         margin-bottom: 20px;
         padding: 10px;
-
-        // Positioning
         position: relative;
         top: 50%;
         transform: translateY(-50%);
-
-        // Other styles (e.g., background color)
-
+     
         h1 {
             font-family: "Oswald", sans-serif;
-            font-size: 24px;
+            font-size: 22px;
             font-weight: bold;
             color: $ocean-turquoise;
+            margin-bottom: 30px;
+        
         }
 
         .paragraph-section {
             p {
-                font-size: 12px;
+                font-size: 18px;
                 color: $ocean-turquoise;
                 line-height: 1;
                 margin-bottom: 10px;
             }
         }
-
 
     }
 
@@ -93,7 +84,7 @@
         }
 
         .placeholder-text::placeholder {
-            color: $grey
+            color: $light-grey
         }
 
         .custom-textarea {
