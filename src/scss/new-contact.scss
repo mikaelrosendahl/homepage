@@ -17,7 +17,6 @@
     }
 
     .info-text {
-        height: 250px;
         text-align: left;
         margin-left: 80px;
         margin-bottom: 20px;
@@ -28,7 +27,7 @@
      
         h1 {
             font-family: "Oswald", sans-serif;
-            font-size: 22px;
+            font-size: 24px;
             font-weight: bold;
             color: $ocean-turquoise;
             margin-bottom: 30px;
@@ -37,10 +36,17 @@
 
         .paragraph-section {
             p {
-                font-size: 18px;
+                font-size: 16px;
                 color: $ocean-turquoise;
                 line-height: 1;
                 margin-bottom: 10px;
+                
+            }
+            .privacy-policy {
+                font-size: 18px;
+                color: $ocean-turquoise;
+                line-height: 1;
+                margin-top: 20px;
             }
         }
 
