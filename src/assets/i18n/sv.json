@@ -31,8 +31,18 @@
         "CONFIRM_PASSWORD": "Bekräfta lösenord",
         "SAVE_LOGIN": "Spara login?",
         "SUBMIT": "Skicka"
-    }
+    },
 
+    "CONTACT": {
+        "LOCATION": "PLATS",
+        "ADDRESS": "Vaksala Lunda 61",
+        "ZIP": "754 73",
+        "CITY": "Uppsala",
+        "COUNTRY": "SWEDEN",
+        "FOLLOWUS": "FÖLJ OSS",
+        "PRIVACY_POLICY": "© 2023 Privacy policy",
+        "CONTACT_US": "kontakta oss"
+    }
 
 
 }
