@@ -26,7 +26,7 @@
         transform: translateY(-50%);
      
         h1 {
-            font-family: "Oswald", sans-serif;
+            font-family: "Oswald", sans-serif !important;
             font-size: 24px;
             font-weight: bold;
             color: $ocean-turquoise;
@@ -40,8 +40,8 @@
                 color: $ocean-turquoise;
                 line-height: 1;
                 margin-bottom: 10px;
-                
             }
+            
             .privacy-policy {
                 font-size: 18px;
                 color: $ocean-turquoise;
@@ -99,8 +99,8 @@
         }
     }
 
-    .custom-font {
-        font-family: 'Oswald', sans-serif !important;
+    h2 {
+        font-family: "Oswald", sans-serif !important;
         font-size: 3rem;
         color: $turquoise-ultralight;
     }

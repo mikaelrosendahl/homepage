@@ -44,7 +44,6 @@ button {
 } 
 
 .transparent-btn {
-    
     text-transform: uppercase;
     text-align: center;
     border-style: none;
@@ -53,6 +52,22 @@ button {
     padding: 8px 24px 8px 24px;
     background-color: transparent; 
      color: #fff; 
+     border-style: solid;
+     background-image: none;
+     font-size: 0.875rem;
+     letter-spacing: 4px;
+    
+}
+
+.brown-btn {
+    text-transform: uppercase;
+    text-align: center;
+    border-style: none;
+    border: 2px solid $turtle-brown;
+    font-weight: 400;
+    padding: 8px 24px 8px 24px;
+    background-color: transparent; 
+     color: $turtle-brown; 
      border-style: solid;
      background-image: none;
      font-size: 0.875rem;

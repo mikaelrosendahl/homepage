@@ -26,7 +26,7 @@
                 <div class="contact">
                     <div class="d-flex">
                         <form class="contact-form" (ngSubmit)="submitForm(contact)" #contact="ngForm">
-                            <div class="custom-font">{{'CONTACT.CONTACT_US' | translate }}</div>
+                            <h2>{{'CONTACT.CONTACT_US' | translate }}</h2>
                             <div class="mb-3 mt-3">
                                 <input type="email" class="form-control placeholder-text" id="emailHelp"
                                     [(ngModel)]="formData.email" name="email" placeholder="Enter a valid email address"
@@ -41,7 +41,7 @@
                                     name="message" [(ngModel)]="formData.message" required
                                     placeholder="Enter your message"></textarea>
                             </div>
-                            <button type="submit" class="transparent-btn text-white">{{'FORM_LABEL.SUBMIT' |
+                            <button type="submit" class="transparent-btn text-white">{{'BUTTON.SUBMIT' |
                                 translate}}</button>
                         </form>
                     </div>
