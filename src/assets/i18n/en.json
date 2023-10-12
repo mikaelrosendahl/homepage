@@ -14,12 +14,15 @@
 		"TEXTROW_2": "Our mastery in scuba diving courses and dive gear maintenance, ",
 		"TEXTROW_3": "combined with a passion for quality products, exceptional services,", 
 		"TEXTROW_4": "and unmatched customer care, keeps our community returning again and again!"
-    
     },
 
     "LEARN": {
         "HEADER_1": "Learn to dive",
         "HEADER_2": "Your ticket to the ocean world"
+    },
+
+    "COURSES": {
+        "OUR_COURSES": "Our Courses"
     },
 
     "EXPLORE": {

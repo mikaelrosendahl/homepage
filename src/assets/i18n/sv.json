@@ -22,6 +22,10 @@
         "HEADER_2": "Din biljett till havsvärlden"
     },
 
+    "COURSES": {
+        "OUR_COURSES": "Våra kurser"
+    },
+
     "BUTTON": {
     "LOGIN": "Logga in",
     "READ_MORE": "Läs mer",
