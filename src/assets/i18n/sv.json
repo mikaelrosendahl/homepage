@@ -15,7 +15,11 @@
 		"TEXTROW_2": "Vår erfarenhet av att utbilda dykare samt underhåll av dykutrustning,",
 		"TEXTROW_3": "kombinerat med engagemang för kvalitetsprodukter, exceptionella tjänster,", 
 		"TEXTROW_4": "och oöverträffad kundvård, gör att våra kunder ständigt fortsätter att återkomma!"
-       
+    },
+
+    "LEARN": {
+        "HEADER_1": "Lär dig dyka",
+        "HEADER_2": "Din biljett till havsvärlden"
     },
 
     "BUTTON": {

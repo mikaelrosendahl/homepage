@@ -11,9 +11,8 @@
 .photo-learn {
   margin-top: 24px;
   margin-bottom: 20px;
-  /* Add some spacing between photos */
   height: 300px;
-  /* Set a fixed height for consistency */
+  background-image: url('/assets/img/exploration-pictures/pool-group.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -26,6 +25,7 @@
   margin-bottom: 20px;
   position: relative;
   overflow: hidden;
+  background-image: url('/assets/img/exploration-pictures/scubalady.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -34,6 +34,7 @@
 
 .photo-md-left {
   height: 300px;
+  background-image: url('/assets/img/exploration-pictures/tanks.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,6 +42,7 @@
 
 .photo-md-right {
   height: 245px;
+  background-image: url('/assets/img/exploration-pictures/dsd.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -54,6 +56,5 @@
   text-align: center;
   background: transparent;
   line-height: 1.4;
-  /* Set the desired line height for more spacing between text rows */
 }
 }
