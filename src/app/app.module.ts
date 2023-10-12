@@ -21,7 +21,7 @@ import { ExploreComponent } from './explore.component';
 import { LearnComponent } from './learn.component';
 import { TravelComponent } from './travel.component';
 import { AboutUsComponent } from './about-us.component';
-import { OurCoursesComponent } from './our-courses';
+import { CaroselComponent } from './carosel';
 import { ContactUsComponent } from './contact-us.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { CreateUserComponent } from './home.components/create-user.component';
@@ -47,7 +47,7 @@ import { MessageComponent } from './new-contact.component';
     LearnComponent,
     TravelComponent,
     AboutUsComponent,
-    OurCoursesComponent,
+    CaroselComponent,
     ContactUsComponent,
     CreateUserComponent,
     PresentationComponent,
