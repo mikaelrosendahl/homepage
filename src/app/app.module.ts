@@ -27,6 +27,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { CreateUserComponent } from './home.components/create-user.component';
 import { PresentationComponent } from './presentation.component';
 import { MessageComponent } from './new-contact.component';
+import { OurCoursesComponent } from './our-courses';
 
 
 
@@ -51,7 +52,8 @@ import { MessageComponent } from './new-contact.component';
     ContactUsComponent,
     CreateUserComponent,
     PresentationComponent,
-    MessageComponent 
+    MessageComponent,
+    OurCoursesComponent 
    
   
 
