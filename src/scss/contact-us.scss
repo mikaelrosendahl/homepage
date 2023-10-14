@@ -1,69 +1,107 @@
-@import "variables";
+@import 'variables';
+@import 'fonts';
 
 
- @media (min-width: 1240px) {
 
-  .bg-contact-us {
-    height: 100vh;
+.bg-new-contact {
+    height: auto;
     max-width: 1280px;
     margin: 70px;
 
-  }
+    .info-container {
+        height: 450px;
+        background-color: $secondary;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 
+    .info-text {
+        text-align: left;
+        margin-left: 80px;
+        margin-bottom: 20px;
+        padding: 10px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+     
+        h1 {
+            font-family: "Oswald", sans-serif !important;
+            font-size: 24px;
+            font-weight: bold;
+            color: $ocean-turquoise;
+            margin-bottom: 30px;
+        
+        }
 
-  .overlap-img {
-    position: relative;
-    top: 20%;
-    left: 25%;
-    transform: translate(-50%, -50%, -50%);
-    background-color: rgba(255, 255, 255, 1); /* Change the opacity and color as needed */
-    padding: 20px;
-    color: black;
-    text-align: center;
-    z-index: 1; /* The overlap content should be above the image (z-index 0) */
-  }
-  
- }
+        .paragraph-section {
+            p {
+                font-size: 16px;
+                color: $ocean-turquoise;
+                line-height: 1;
+                margin-bottom: 10px;
+            }
+            
+            .privacy-policy {
+                font-size: 18px;
+                color: $ocean-turquoise;
+                line-height: 1;
+                margin-top: 20px;
+            }
+        }
 
-  .photo-contact-us {
-    margin-top: 70px;
-    height: 400px;
-    background-image: url('/assets/img/exploration-pictures/zansibar beach.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
- 
-  }
+    }
 
-  .bg-contact-us {
-    height: 100vh;
-    max-width: 1280px;
-    margin: 70px;
+    .contact {
+        height: 450px;
+        background-color: $ocean-turquoise;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-left: -4rem;
+        /* Negative margin to overlap by 0.5 column width */
+        position: relative;
+        /* Establish relative positioning for absolute positioning */
+        z-index: 1;
+        /* Adjust the z-index as needed */
+    }
 
-  }
+    .contact-form {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 40px;
+        margin-left: 40px;
+        height: 300px;
+        width: 500px;
 
-/* Medium screens (768px to 1239px) */
-@media (max-width: 1239px) and (min-width: 768px) {
-  .bg-contact-us {
-    height: 100vh;
-    max-width: 1280px;
-    margin: 70px;
+        .form-control {
+            border-radius: 0;
+            padding: 5px;
+            width: 100%;
+            transition: border-color 0.2s ease-in-out;
+            font-size: 0.75rem;
+            background-color: $white;
 
-  }
+            &:focus {
+                outline: none;
+                border-color: #007bff;
+                box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+            }
+        }
 
-  .contact-form {
-    margin-top: 70px;
-    height: 300px;
-  }
+        .placeholder-text::placeholder {
+            color: $light-grey
+        }
 
-  .photo-contact-us {
-    margin-top: 70px;
-    height: 400px;
-    background-image: url('/assets/img/exploration-pictures/zansibar beach.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
- 
-  }
+        .custom-textarea {
+            width: 100%;
+            height: 86px;
+        }
+    }
 
-} 
+    h2 {
+        font-family: "Oswald", sans-serif !important;
+        font-size: 3rem;
+        color: $turquoise-ultralight;
+    }
+}
