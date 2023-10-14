@@ -3,8 +3,8 @@ import { Component, Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-contact-us',
-  templateUrl: './contact-us.component.html',
+  selector: 'app-contact',
+  templateUrl: './contact.html',
 
  
 })
@@ -13,7 +13,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 
-export class ContactUsComponent {
+export class ContactComponent {
   formData = {
     email: '',
     name: '',
@@ -21,7 +21,7 @@ export class ContactUsComponent {
   
   };
 
-   private apiUrl = 'https://localhost:7101/api/contact';
+   private apiUrl = 'https://localhost:7101/api/home/contact';
 
     constructor(private http: HttpClient) { }
 

@@ -46,7 +46,8 @@
         "PASSWORD": "Lösenord:",
         "CONFIRM_PASSWORD": "Bekräfta lösenord",
         "SAVE_LOGIN": "Spara login?",
-        "SUBMIT": "Skicka"
+        "SUBMIT": "Skicka",
+        "CREATE_USER": "Skapa användare"
     },
 
     "ABOUT": {

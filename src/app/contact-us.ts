@@ -3,8 +3,8 @@ import { Component, Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-new-contact',
-  templateUrl: './new-contact.component.html',
+  selector: 'app-contact-us',
+  templateUrl: './contact-us.html',
  
 })
 
@@ -12,7 +12,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 
-export class MessageComponent {
+export class ContactUsComponent {
   formData = {
     email: '',
     name: '',

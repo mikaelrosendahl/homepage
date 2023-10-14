@@ -1,16 +1,17 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home.components/home.component';
-import { AboutComponent } from './home.components/about.component';
-import { CoursesComponent } from './home.components/courses.component';
-import { ContactComponent } from './home.components/contact.component';
-import { PageNotFoundComponent } from './pagenotfound.component';
-import { LoginComponent } from './home.components/login.component';
-import { CreateUserComponent } from './home.components/create-user.component';
-import { LearnComponent } from './learn.component';
-import { ExploreComponent } from './explore.component';
-import { TravelComponent } from './travel.component';
-import { MessageComponent } from './new-contact.component';
+import { HomeComponent } from './home/home';
+import { AboutComponent } from './home/about';
+import { CoursesComponent } from './home/courses';
+
+import { PageNotFoundComponent } from './pagenotfound';
+import { LoginComponent } from './home/login';
+import { CreateUserComponent } from './home/create-user';
+import { DiscoverComponent } from './discover';
+import { ExploreComponent } from './explore';
+import { TravelComponent } from './travel';
+import { ContactUsComponent } from './contact-us';
+import { ContactComponent } from './home/contact';
 
 
 
@@ -18,10 +19,11 @@ const routes: Routes = [
   { path: '', component: HomeComponent, },
   { path: 'about', component: AboutComponent },
   { path: 'courses', component: CoursesComponent },
-  { path: 'new-contact', component: MessageComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'contact-us', component: ContactUsComponent},
   { path: 'login', component: LoginComponent },
   { path: 'create-user', component: CreateUserComponent },
-  { path: 'learn', component: LearnComponent },
+  { path: 'discover', component: DiscoverComponent },
   { path: 'explore', component: ExploreComponent },
   { path: 'travel', component: TravelComponent },
 

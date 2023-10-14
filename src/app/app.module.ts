@@ -3,30 +3,25 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home.components/home.component';
-import { AboutComponent } from './home.components/about.component';
-import { CoursesComponent } from './home.components/courses.component';
-import { ContactComponent } from './home.components/contact.component';
-import { PageNotFoundComponent } from './pagenotfound.component';
-import { MenuComponent } from './menu.components/menu.component';
-import { HeaderComponent } from './header.component';
-import { FooterComponent } from './footer.component';
-import { LoginComponent } from './home.components/login.component';
-import { ToggleBarComponent } from './toggle-bar/toggle-bar.component';
+import { HomeComponent } from './home/home';
+import { AboutComponent } from './home/about';
+import { CoursesComponent } from './home/courses';
+import { PageNotFoundComponent } from './pagenotfound';
+import { FooterComponent } from './footer';
+import { LoginComponent } from './home/login';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslationLoaderService } from './translation-loader.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import { ExploreComponent } from './explore.component';
-import { LearnComponent } from './learn.component';
-import { TravelComponent } from './travel.component';
-import { AboutUsComponent } from './about-us.component';
+import { ExploreComponent } from './explore';
+import { DiscoverComponent } from './discover';
+import { TravelComponent } from './travel';
+import { AboutUsComponent } from './about-us';
 import { CaroselComponent } from './carosel';
-import { ContactUsComponent } from './contact-us.component';
+import { ContactComponent } from './home/contact';
 import { ReactiveFormsModule } from '@angular/forms';
-import { CreateUserComponent } from './home.components/create-user.component';
-import { PresentationComponent } from './presentation.component';
-import { MessageComponent } from './new-contact.component';
+import { CreateUserComponent } from './home/create-user';
+import { ContactUsComponent } from './contact-us';
 import { OurCoursesComponent } from './our-courses';
 
 
@@ -37,22 +32,17 @@ import { OurCoursesComponent } from './our-courses';
     HomeComponent,
     AboutComponent,
     CoursesComponent,
-    ContactComponent,
     PageNotFoundComponent,
-    MenuComponent,
-    HeaderComponent,
     FooterComponent,
     LoginComponent,
-    ToggleBarComponent,
     ExploreComponent,
-    LearnComponent,
+    DiscoverComponent,
     TravelComponent,
     AboutUsComponent,
     CaroselComponent,
-    ContactUsComponent,
+    ContactComponent,
     CreateUserComponent,
-    PresentationComponent,
-    MessageComponent,
+    ContactUsComponent,
     OurCoursesComponent 
    
   

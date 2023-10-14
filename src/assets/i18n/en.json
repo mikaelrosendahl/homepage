@@ -53,7 +53,8 @@
         "PASSWORD": "Password:",
         "CONFIRM_PASSWORD": "Confirm password",
         "SAVE_LOGIN": "Save login?",
-        "SUBMIT": "Submit"
+        "SUBMIT": "Submit",
+        "CREATE_USER": "Create User"
     },
 
     "ABOUT": {
