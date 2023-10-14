@@ -4,6 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "Homepage": {
+      
       "projectType": "application",
       "schematics": {},
       "root": "",
