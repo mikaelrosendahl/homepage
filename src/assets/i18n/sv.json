@@ -7,7 +7,6 @@
         "LANGUAGE": "Välj språk:",
         "CREATE_USER": "Skapa användare",
         "LOGIN": "Logga in"
-    
     },
 
     "HOME": {
@@ -15,12 +14,35 @@
 		"TEXTROW_2": "Vår erfarenhet av att utbilda dykare samt underhåll av dykutrustning,",
 		"TEXTROW_3": "kombinerat med engagemang för kvalitetsprodukter, exceptionella tjänster,", 
 		"TEXTROW_4": "och oöverträffad kundvård, gör att våra kunder ständigt fortsätter att återkomma!"
-       
+    },
+
+    "LEARN": {
+        "HEADER_1": "Lär dig dyka",
+        "HEADER_2": "Din biljett till havsvärlden"
+    },
+
+    "COURSES": {
+        "FIND_A_COURSE": "Hitta din kurs",
+        "OUR_COURSES": "Våra kurser",
+        "OPEN_WATER": "Open Water Diver",
+        "ADVANCED": "Advanced Open Water Diver",
+        "RESCUE": "Rescue Diver",
+        "OPENWATER_INFO": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "ADVANCED_INFO": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "RESCUE_INFO": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "SPECIALITY_DIVER": "Speciality Diver",
+        "MASTER_SCUBA_DIVER": "Master Scuba Diver",
+        "DIVEMASTER": "Divemaster",
+        "SPECIALITY_INFO": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "MASTER_INFO": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "DIVEMASTER_INFO": "Some quick example text to build on the card title and make up the bulk of the card's content."
     },
 
     "BUTTON": {
     "LOGIN": "Logga in",
-    "READ_MORE": "Läs mer"
+    "READ_MORE": "Läs mer",
+    "SUBMIT": "Skicka",
+    "MORE": "Mer"
     },
 
     "FORM_LABEL": {
@@ -30,9 +52,30 @@
         "PASSWORD": "Lösenord:",
         "CONFIRM_PASSWORD": "Bekräfta lösenord",
         "SAVE_LOGIN": "Spara login?",
-        "SUBMIT": "Skicka"
-    }
+        "SUBMIT": "Skicka",
+        "CREATE_USER": "Skapa användare"
+    },
 
+    "ABOUT": {
+        "ABOUT_US": "om oss",
+        "TEXTROW_1": "Explore the hidden wonders of the seven seas, where a vibrant tapestry",
+        "TEXTROW_2": "of marine life awaits. Dive into the depths and uncover the mesmerizing ",
+        "TEXTROW_3": "beauty that lies beneath the waves. Embark on a journey of discovery,",
+        "TEXTROW_4": "as scuba divers, to witness the enchanting world of underwater marvels.",
+        "TEXTROW_5": "beauty that lies beneath the waves. Embark on a journey of discovery,",
+        "TEXTROW_6": "beauty that lies beneath the waves. Embark on a journey of discovery,"
+    },
+
+    "CONTACT": {
+        "LOCATION": "PLATS",
+        "ADDRESS": "Vaksala Lunda 61",
+        "ZIP": "754 73",
+        "CITY": "Uppsala",
+        "COUNTRY": "SWEDEN",
+        "FOLLOWUS": "FÖLJ OSS",
+        "PRIVACY_POLICY": "© 2023 Privacy policy",
+        "CONTACT_US": "kontakta oss"
+    }
 
 
 }

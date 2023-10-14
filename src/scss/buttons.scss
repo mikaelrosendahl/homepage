@@ -1,3 +1,11 @@
+button {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+
 .red-btn {
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -9,7 +17,7 @@
     /* Replace with your desired background color */
      color: #fff; 
     /* Replace with your desired text color */
-    border-radius: 4px; 
+ 
     /* Add some border-radius to give a rounded appearance */
 } 
 
@@ -25,7 +33,7 @@
     /* Replace with your desired background color */
      color: #fff; 
     /* Replace with your desired text color */
-    border-radius: 4px; 
+  
     /* Add some border-radius to give a rounded appearance */
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
@@ -35,33 +43,50 @@
     }
 } 
 
-/* .btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-
-    &:hover {
-      background-color: #0056b3;
-    } 
-}*/
 .transparent-btn {
     text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 1rem;
+    text-align: center;
     border-style: none;
-    font-weight: 700;
-    padding: 10px 22px 10px 21px;
+    border: 2px solid #fff;
+    font-weight: 400;
+    padding: 8px 24px 8px 24px;
     background-color: transparent; 
-    /* Replace with your desired background color */
      color: #fff; 
-    /* Replace with your desired text color */
-    border-radius: 4px; 
-    /* Add some border-radius to give a rounded appearance */
+     border-style: solid;
+     background-image: none;
+     font-size: 0.875rem;
+     letter-spacing: 4px;
+    
+}
+
+.brown-btn {
+    text-transform: uppercase;
+    text-align: center;
+    border-style: none;
+    border: 2px solid $turtle-brown;
+    font-weight: 400;
+    padding: 8px 24px 8px 24px;
+    background-color: transparent; 
+     color: $turtle-brown; 
+     border-style: solid;
+     background-image: none;
+     font-size: 0.875rem;
+     letter-spacing: 4px;
+} 
+
+.brown-btn-sm {
+    text-transform: uppercase;
+    text-align: center;
+    border-style: none;
+    border: 2px solid $turtle-brown;
+    font-weight: 500;
+    padding: 6px 18px 6px 18px;
+    background-color: transparent; 
+     color: $turtle-brown; 
+     border-style: solid;
+     background-image: none;
+     font-size: 0.584rem;
+     letter-spacing: 2px;
 }
 
 .black-btn {
@@ -75,7 +100,7 @@
     /* Replace with your desired background color */
      color: #fff; 
     /* Replace with your desired text color */
-    border-radius: 4px; 
+   
     /* Add some border-radius to give a rounded appearance */
 }
 
@@ -90,6 +115,6 @@
     /* Replace with your desired background color */
      color: #fff; 
     /* Replace with your desired text color */
-    border-radius: 4px; 
+   
     /* Add some border-radius to give a rounded appearance */
 }

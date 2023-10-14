@@ -1,13 +1,17 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home.component';
-import { AboutComponent } from './about.component';
-import { CoursesComponent } from './courses.component';
-import { ContactComponent } from './contact.component';
-import { PageNotFoundComponent } from './pagenotfound.component';
-import { LoginComponent } from './login.component';
-import { CreateUserComponent } from './create-user.component';
-import { PresentationComponent } from './presentation.component';
+import { HomeComponent } from './home/home';
+import { AboutComponent } from './home/about';
+import { CoursesComponent } from './home/courses';
+
+import { PageNotFoundComponent } from './pagenotfound';
+import { LoginComponent } from './home/login';
+import { CreateUserComponent } from './home/create-user';
+import { DiscoverComponent } from './discover';
+import { ExploreComponent } from './explore';
+import { TravelComponent } from './travel';
+import { ContactUsComponent } from './contact-us';
+import { ContactComponent } from './home/contact';
 
 
 
@@ -16,9 +20,13 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'courses', component: CoursesComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'contact-us', component: ContactUsComponent},
   { path: 'login', component: LoginComponent },
   { path: 'create-user', component: CreateUserComponent },
-  { path: 'presentation', component: PresentationComponent },
+  { path: 'discover', component: DiscoverComponent },
+  { path: 'explore', component: ExploreComponent },
+  { path: 'travel', component: TravelComponent },
+
   { path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page 
 ];
 
