@@ -29,7 +29,13 @@
         "RESCUE": "Rescue Diver",
         "OPENWATER_INFO": "Some quick example text to build on the card title and make up the bulk of the card's content.",
         "ADVANCED_INFO": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-        "RESCUE_INFO": "Some quick example text to build on the card title and make up the bulk of the card's content."
+        "RESCUE_INFO": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "SPECIALITY_DIVER": "Speciality Diver",
+        "MASTER_SCUBA_DIVER": "Master Scuba Diver",
+        "DIVEMASTER": "Divemaster",
+        "SPECIALITY_INFO": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "MASTER_INFO": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "DIVEMASTER_INFO": "Some quick example text to build on the card title and make up the bulk of the card's content."
     },
 
     "BUTTON": {
