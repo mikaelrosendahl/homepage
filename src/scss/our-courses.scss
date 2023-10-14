@@ -1,28 +1,48 @@
-@import "variables";
-
-.our-courses {
-
-    background-color: $primary;
-
+.bg-our-courses {
+  height: auto;
+  max-width: 1280px;
+  margin: 70px;
+  background-color: $secondary;
 }
 
-.img {
+ .text {
+  font-family: "Oswald", sans-serif !important;
+  font-weight: 600;
+  font-size: 1.0rem;
+  color: $turtle-brown;
+  margin-top: 3rem;
+} 
 
-    height: 60vh;
-    width: 500px;
-    /* Set the height of the container, adjust as needed */
-    background-image: url('/assets/img/exploration-pictures/wreck-black-n-white.jpg');
-    /* Path to your image relative to the assets folder */
-    background-repeat: no-repeat;
-
-    /* Adjust as needed */
-    background-position: center center;
+.header {
+  margin-bottom: 3rem;
 }
 
-.image-container {
-    img {
-        max-width: 100%; // Set the maximum width to 100% of the container
-        height: auto; // Allow the height to adjust automatically based on the aspect ratio
-        display: block; // Ensure the image behaves as a block element within the container
-    }
+ h1 {
+  font-family: "Oswald", sans-serif !important;
+  color: $turtle-brown;
 }
+
+h2 {
+  font-family: "Oswald", sans-serif !important;
+  font-size: 1.5rem;
+  color: $turtle-brown;
+}
+
+h5 {
+  font-family: "Oswald", sans-serif !important;
+}
+ 
+.card {
+  width: 18rem;
+  border-radius: 0 !important;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.card-img-top {
+  border-radius: 0 !important;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+

@@ -72,7 +72,21 @@ button {
      background-image: none;
      font-size: 0.875rem;
      letter-spacing: 4px;
-    
+} 
+
+.brown-btn-sm {
+    text-transform: uppercase;
+    text-align: center;
+    border-style: none;
+    border: 2px solid $turtle-brown;
+    font-weight: 500;
+    padding: 6px 18px 6px 18px;
+    background-color: transparent; 
+     color: $turtle-brown; 
+     border-style: solid;
+     background-image: none;
+     font-size: 0.584rem;
+     letter-spacing: 2px;
 }
 
 .black-btn {
