@@ -1,7 +1,35 @@
 .bg-our-courses {
-    height: auto;
-    max-width: 1280px;
-    margin: 70px;
-    color: $ocean-turquoise;
-    background-color: $secondary;
+  height: auto;
+  max-width: 1280px;
+  margin: 70px;
+  background-color: $secondary;
 }
+
+/* .text {
+  font-family: "Oswald", sans-serif !important;
+  font-size: 1.0rem;
+  color: $turtle-brown;
+  margin-top: 3rem;
+} */
+
+h2 {
+  font-family: "Oswald", sans-serif !important;
+  font-size: 1.5rem;
+  color: $turtle-brown;
+
+}
+
+h5 {
+  font-family: "Oswald", sans-serif !important;
+}
+ 
+.card {
+  width: 18rem;
+  border-radius: 0 !important;
+  margin-bottom: 3rem;
+}
+
+.card-img-top {
+  border-radius: 0 !important;
+}
+

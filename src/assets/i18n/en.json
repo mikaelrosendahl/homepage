@@ -22,7 +22,14 @@
     },
 
     "COURSES": {
-        "OUR_COURSES": "Our Courses"
+        "FIND_A_COURSE": "Find your course",
+        "OUR_COURSES": "Featured Courses",
+        "OPEN_WATER": "Open Water Diver",
+        "ADVANCED": "Advanced Open Water Diver",
+        "RESCUE": "Rescue Diver",
+        "OPENWATER_INFO": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "ADVANCED_INFO": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "RESCUE_INFO": "Some quick example text to build on the card title and make up the bulk of the card's content."
     },
 
     "EXPLORE": {
@@ -35,7 +42,8 @@
     "BUTTON":{
         "LOGIN": "Login",
         "READ_MORE": "Read more",
-        "SUBMIT": "Submit"
+        "SUBMIT": "Submit",
+        "MORE": "More"
     },
 
     "FORM_LABEL": {

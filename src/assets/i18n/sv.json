@@ -7,7 +7,6 @@
         "LANGUAGE": "Välj språk:",
         "CREATE_USER": "Skapa användare",
         "LOGIN": "Logga in"
-    
     },
 
     "HOME": {
@@ -23,13 +22,21 @@
     },
 
     "COURSES": {
-        "OUR_COURSES": "Våra kurser"
+        "FIND_A_COURSE": "Hitta din kurs",
+        "OUR_COURSES": "Våra kurser",
+        "OPEN_WATER": "Open Water Diver",
+        "ADVANCED": "Advanced Open Water Diver",
+        "RESCUE": "Rescue Diver",
+        "OPENWATER_INFO": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "ADVANCED_INFO": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "RESCUE_INFO": "Some quick example text to build on the card title and make up the bulk of the card's content."
     },
 
     "BUTTON": {
     "LOGIN": "Logga in",
     "READ_MORE": "Läs mer",
-    "SUBMIT": "Skicka"
+    "SUBMIT": "Skicka",
+    "MORE": "Mer"
     },
 
     "FORM_LABEL": {
