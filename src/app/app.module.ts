@@ -10,7 +10,7 @@ import { PageNotFoundComponent } from './pagenotfound';
 import { FooterComponent } from './footer';
 import { LoginComponent } from './home/login';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
-import { TranslationLoaderService } from './translation-loader.service';
+import { TranslationLoaderService } from './Services/translation-loader.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { ExploreComponent } from './explore';
@@ -23,6 +23,12 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { CreateUserComponent } from './home/create-user';
 import { ContactUsComponent } from './contact-us';
 import { OurCoursesComponent } from './our-courses';
+import { OWComponent } from './courses/ow-course';
+import { AOComponent } from './courses/ao-course';
+import { RescueComponent } from './courses/rescue-diver';
+import { SpecialityComponent } from './courses/speciality-diver';
+import { MSDComponent } from './courses/master-scuba-diver';
+
 
 
 
@@ -43,7 +49,12 @@ import { OurCoursesComponent } from './our-courses';
     ContactComponent,
     CreateUserComponent,
     ContactUsComponent,
-    OurCoursesComponent 
+    OurCoursesComponent,
+    OWComponent,
+    AOComponent,
+    RescueComponent,
+    SpecialityComponent,
+    MSDComponent 
    
   
 
