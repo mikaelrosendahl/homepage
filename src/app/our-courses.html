@@ -1,11 +1,16 @@
 <div class="container p-0">
   <div class="bg-our-courses">
-    <div class="d-flex justify-content-center">
-      <p class="text">{{'COURSES.FIND_A_COURSE' | translate }}</p>
-    </div>
-    <div class="d-flex justify-content-center">
-      <div class="header">
-        <h1>{{'COURSES.OUR_COURSES' | translate }}</h1>
+    <div class="container-text">
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <p class="text">{{'COURSES.FIND_A_COURSE' | translate }}</p>
+          <h1>{{'COURSES.OUR_COURSES' | translate }}</h1>
+          <div class="intro-text mt-3 mb-4">
+            {{'COURSES.INFO_TEXT_1' | translate }}
+            {{'COURSES.INFO_TEXT_2' | translate }}
+            {{'COURSES.INFO_TEXT_3' | translate }}
+          </div>
+        </div>
       </div>
     </div>
     <div class="container">
@@ -70,10 +75,15 @@
             <div class="card-body">
               <h5 class="card-title">{{'COURSES.DIVEMASTER' | translate }}</h5>
               <p class="card-text">{{'COURSES.DIVEMASTER_INFO' | translate }}</p>
-              <a class="brown-btn-sm"  routerLink="/divemaster">{{'BUTTON.MORE' | translate }}</a>
+              <a class="brown-btn-sm" routerLink="/divemaster">{{'BUTTON.MORE' | translate }}</a>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <div class="spacing">
+        <button type="button" class="brown-btn">{{'BUTTON.SEE_ALL_COURSES' | translate}}</button>
       </div>
     </div>
   </div>

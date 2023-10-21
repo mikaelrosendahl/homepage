@@ -13,29 +13,19 @@
   margin-top: 3rem;
 } 
 
-.header {
-  margin-bottom: 3rem;
-}
-
- h1 {
+.intro-text {
   font-family: "Oswald", sans-serif !important;
   color: $turtle-brown;
 }
 
-h2 {
-  font-family: "Oswald", sans-serif !important;
-  font-size: 1.5rem;
-  color: $turtle-brown;
-}
-
-h5 {
-  font-family: "Oswald", sans-serif !important;
-}
- 
 .card {
   width: 18rem;
   border-radius: 0 !important;
   margin: auto;
+  margin-bottom: 3rem;
+}
+
+.spacing {
   margin-bottom: 3rem;
 }
 
