@@ -24,6 +24,10 @@
     "COURSES": {
         "FIND_A_COURSE": "Find your course",
         "OUR_COURSES": "Featured Courses",
+        "INFO_TEXT_1": "Embark on unforgettable ocean adventures with Exploration Unlimited.",
+        "INFO_TEXT_2":  "Our mastery in scuba diving courses and dive gear maintenance, ",
+        "INFO_TEXT_3": "combined with a passion for quality products, exceptional services,", 
+        "INFO_TEXT_4": "and unmatched customer care, keeps our community returning again and again!",
         "OPEN_WATER": "Open Water Diver",
         "ADVANCED": "Advanced Open Water Diver",
         "RESCUE": "Rescue Diver",
@@ -49,7 +53,8 @@
         "LOGIN": "Login",
         "READ_MORE": "Read more",
         "SUBMIT": "Submit",
-        "MORE": "More"
+        "MORE": "More",
+        "SEE_ALL_COURSES": "See all courses"
     },
 
     "FORM_LABEL": {

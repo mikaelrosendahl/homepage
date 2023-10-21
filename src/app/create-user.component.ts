@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-create-user',
-  templateUrl: './create-user.component.html',
+  templateUrl: './create-user.html',
 
 })
 export class CreateUserComponent {
@@ -20,7 +20,6 @@ export class CreateUserComponent {
     this.http.post<any>('https://localhost:7101/api/CreateUser', this.user).subscribe(
       response => {
         console.log('User created successfully!', response);
-        // Reset the form after successful submission
         this.user = {
           email: '',
           password: '',
