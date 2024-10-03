@@ -40,7 +40,6 @@
       text-align: center;
       background-color: transparent;
       line-height: 1.4;
-      /* Set the desired line height for more spacing between text rows */
       margin-bottom: 4rem;
    }
 
@@ -49,7 +48,6 @@
 /* Medium screens (768px to 1239px) */
 @media (max-width: 1239px) and (min-width: 768px) {
 
-   // Add your medium screen styles here
    .bg-home {
       height: 100vh;
       max-width: 1280px; // Set your desired maximum width
@@ -190,7 +188,6 @@
       text-align: center;
       background-color: transparent;
       line-height: 1.4;
-      /* Set the desired line height for more spacing between text rows */
       margin-bottom: 4rem;
 
    }

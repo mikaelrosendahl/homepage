@@ -4,31 +4,9 @@
 @media (min-width: 1240px) {
 
         .bg-footer {
-
-                height: 100vh;
+                height: auto;
                 max-width: 1280px;
                 margin: 70px;
-
-                background-color: $ocean-turquoise;
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-        }
-
-        .footer-content {
-                height: 30rem;
-                background-color: transparent;
-        }
-
-}
-
-@media (max-width: 1239px) and (min-width: 768px) {
-        .bg-footer {
-
-                height: 100vh;
-                max-width: 1280px;
-                margin: 70px;
-
                 background-color: $sky-blue;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -36,27 +14,33 @@
         }
 
         .footer-content {
-                height: 100vh;
-                background-color: transparent;
+                /* height: 30rem; */
+                /* background-color: transparent; */
         }
 }
 
-@media (max-width: 374px) {
-        .bg-footer {
+ul, li {
+        list-style-type: none;
+}
 
-                height: 100vh;
-                max-width: 1280px;
-                margin: 70px;
+.link-style {
 
-                background-color: $sky-blue;
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
+        font-size: 16px;
+        line-height: 1;
+        font-size: large;
+        color: $secondary !important;
+
+        &:hover,
+        :active {
+                color: darken($color: $secondary, $amount: 20) !important;
         }
 
-        .footer-content {
-                height: 100vh;
-                background-color: transparent;
+        &:focus {
+                text-decoration: underline;
         }
+}
 
+.logo {
+        padding-top: 4rem;
+        padding-left: 1rem;
 }
