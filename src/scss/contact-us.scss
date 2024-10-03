@@ -66,7 +66,7 @@
         /* Adjust the z-index as needed */
     }
 
-    .contact-form {
+    .contact-us-form {
         margin-top: 50px;
         margin-bottom: 50px;
         margin-right: 40px;
@@ -79,8 +79,10 @@
             padding: 5px;
             width: 100%;
             transition: border-color 0.2s ease-in-out;
-            font-size: 0.75rem;
+            font-size: 1rem; 
+            font-weight: 400;
             background-color: $white;
+            height: 50px;
 
             &:focus {
                 outline: none;
