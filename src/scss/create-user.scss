@@ -1,8 +1,5 @@
 @import "node_modules/bootstrap/scss/bootstrap";
-@import "variables";
 @import "backgrounds";
-
-// To do, use color variables where it applies
 
 
 // Styling for the form
@@ -14,7 +11,6 @@
   max-width: 600px;
   margin: 0 auto;
 
-  
 
   p {
     color: #777;
@@ -43,7 +39,7 @@
 
 // Responsivitet (Mobile-First)
 @media (min-width: 768px) {
-  .bg-contact-us {
+  .bg-create-user {
     padding: 3rem;
   }
 
@@ -59,7 +55,7 @@
 }
 
 @media (min-width: 992px) {
-  .bg-contact-us {
+  .bg-create-user {
     padding: 4rem;
   }
 

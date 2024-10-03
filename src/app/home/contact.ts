@@ -5,8 +5,7 @@ import { Observable } from 'rxjs';
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.html',
-
- 
+  
 })
 
 @Injectable({
@@ -19,7 +18,7 @@ export class ContactComponent {
     name: '',
     message: ''
   
-  };
+  }; 
 
    private apiUrl = 'https://localhost:7101/api/home/contact';
 
