@@ -54,7 +54,8 @@
         "READ_MORE": "Read more",
         "SUBMIT": "Submit",
         "MORE": "More",
-        "SEE_ALL_COURSES": "See all courses"
+        "SEE_ALL_COURSES": "See all courses",
+        "CREATE_USER":"Create User"
     },
 
     "FORM_LABEL": {
