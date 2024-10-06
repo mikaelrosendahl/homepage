@@ -40,15 +40,6 @@ label {
   color: #555;
 }
 
-input.control,
-input.form-control {
-  width: 100%; /* Gör inputfältet 100% av sin container */
-  padding: 0.75rem;
-  font-size: 1rem;
-  border: 1px solid #ced4da;
-  border-radius: 0;
-}
-
 .create-user-form {
   @extend .form-common; /* Återanvänd den gemensamma layouten */
   background-color: rgba(235, 231, 217, 0.9); /* Behåll bakgrundsfärgen */
@@ -82,8 +73,9 @@ input.form-control {
      margin-top: 1.5rem;
   }
 
-  button.btn-submit:hover {
-    background-color: #0056b3;
+  button.brown-btn-custom:hover {
+    background-color: $turtle-brown;
+    color: white;
   }
 
 
