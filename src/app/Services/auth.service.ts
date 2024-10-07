@@ -14,4 +14,9 @@ export class AuthService {
     // Make an HTTP POST request to the login endpoint
     return this.http.post(`${this.apiUrl}/Login`, { email, password });
   }
+  
+    // Potentiell metod för att logga ut användaren
+    logout() {
+      return this.http.post(`${this.apiUrl}/Logout`, {});
+    }
 }
