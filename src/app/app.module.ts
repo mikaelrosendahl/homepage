@@ -10,7 +10,7 @@ import { PageNotFoundComponent } from './pagenotfound';
 import { FooterComponent } from './footer';
 import { LoginComponent } from './home/login';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
-import { TranslationLoaderService } from './Services/translation-loader.service';
+import { TranslationLoaderService } from './services/translation-loader.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { ExploreComponent } from './explore';
