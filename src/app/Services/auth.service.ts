@@ -1,22 +1,23 @@
-
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+
+// Definiera LoginResponse här eller importera från en separat fil om du föredrar det
+interface LoginResponse {
+  Token: string;
+}
 
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
-  private apiUrl = 'https://localhost:7101/api'; // Replace with your API endpoint URL
+  private apiUrl = 'https://localhost:7101/api'; // Din API endpoint URL
 
   constructor(private http: HttpClient) { }
 
-  login(email: string, password: string) {
-    // Make an HTTP POST request to the login endpoint
-    return this.http.post(`${this.apiUrl}/Login`, { email, password });
+  // Uppdatera så att login returnerar Observable<LoginResponse>
+  login(email: string, password: string): Observable<LoginResponse> {
+    return this.http.post<LoginResponse>(`${this.apiUrl}/Login`, { email, password });
   }
-  
-    // Potentiell metod för att logga ut användaren
-    logout() {
-      return this.http.post(`${this.apiUrl}/Logout`, {});
-    }
 }
+
