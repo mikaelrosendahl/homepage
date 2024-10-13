@@ -18,6 +18,7 @@ import { RescueComponent } from './courses/rescue-diver';
 import { SpecialityComponent } from './courses/speciality-diver';
 import { MSDComponent } from './courses/master-scuba-diver';
 import { DMComponent } from './courses/divemaster';
+import { DiaryListComponent } from './diary/diary-list';
 
 
 
@@ -38,6 +39,7 @@ const routes: Routes = [
   { path: 'divemaster', component: DMComponent },
   { path: 'explore', component: ExploreComponent },
   { path: 'travel', component: TravelComponent },
+  { path: 'diary/:id', component: DiaryListComponent },
 
 
   { path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page 

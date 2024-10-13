@@ -28,6 +28,7 @@ import { AOComponent } from './courses/ao-course';
 import { RescueComponent } from './courses/rescue-diver';
 import { SpecialityComponent } from './courses/speciality-diver';
 import { MSDComponent } from './courses/master-scuba-diver';
+import { DiaryListComponent } from './diary/diary-list';
 
 
 
@@ -54,7 +55,8 @@ import { MSDComponent } from './courses/master-scuba-diver';
     AOComponent,
     RescueComponent,
     SpecialityComponent,
-    MSDComponent 
+    MSDComponent,
+    DiaryListComponent 
    
   
 
