@@ -1,0 +1,9 @@
+<div class="container">
+    <h2>Dagboksinlägg</h2>
+    <ul>
+      <li *ngFor="let entry of diaryEntries" (click)="viewEntry(entry)">
+        {{ entry.title }} - {{ entry.date | date }}
+      </li>
+    </ul>
+  </div>
+  
