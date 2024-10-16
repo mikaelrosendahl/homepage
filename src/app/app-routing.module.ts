@@ -19,6 +19,7 @@ import { SpecialityComponent } from './courses/speciality-diver';
 import { MSDComponent } from './courses/master-scuba-diver';
 import { DMComponent } from './courses/divemaster';
 import { DiaryListComponent } from './diary/diary-list';
+import { DiaryEntryComponent } from './diary-entry/diary-entry';
 
 
 
@@ -39,7 +40,9 @@ const routes: Routes = [
   { path: 'divemaster', component: DMComponent },
   { path: 'explore', component: ExploreComponent },
   { path: 'travel', component: TravelComponent },
-  { path: 'diary/:id', component: DiaryListComponent },
+  { path: 'diary', component: DiaryListComponent }, // Lista över alla inlägg
+  { path: 'diary/:id', component: DiaryEntryComponent }, // Visar ett specifikt inlägg
+  { path: '', redirectTo: '/diary', pathMatch: 'full' },
 
 
   { path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page 

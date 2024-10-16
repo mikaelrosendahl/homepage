@@ -1,22 +1,26 @@
-import { Component, OnInit } from '@angular/core'; 
+import { Component, OnInit } from '@angular/core';  
 import { Router } from '@angular/router';
-import { HttpClient } from '@angular/common/http';
+import { DiaryService } from '../services/diary.service'; 
 
 @Component({
   selector: 'app-diary-list',
   templateUrl: './diary-list.html',
 })
-export class DiaryListComponent implements OnInit {
+export class DiaryListComponent implements OnInit { 
 
   diaryEntries: any[] = [];
   newEntry: any = { title: '', content: '' }; // Variabel för nytt inlägg
 
-  constructor(private http: HttpClient, private router: Router) {}
+  constructor(private diaryService: DiaryService, private router: Router) {}
 
-  // Hämta alla inlägg från API:et
+  // Hämta alla inlägg från API:et vid sidladdning
   ngOnInit() {
-    // Specificera att svaret är en array av 'any'
-    this.http.get<any[]>('https://localhost:44330/api/diary').subscribe(
+    this.loadDiaryEntries();
+  }
+
+  // Hämta alla inlägg från DiaryService
+  loadDiaryEntries() {
+    this.diaryService.getAllEntries().subscribe(
       (data: any[]) => {
         this.diaryEntries = data;
       },
@@ -26,13 +30,13 @@ export class DiaryListComponent implements OnInit {
     );
   }
 
-  // Metod för att skapa ett nytt inlägg
+  // Metod för att skapa ett nytt inlägg via DiaryService
   createEntry() {
-    this.http.post('https://localhost:44330/api/diary', this.newEntry).subscribe(
+    this.diaryService.createEntry(this.newEntry).subscribe(
       (response: any) => {
         console.log('Inlägg skapat:', response);
         // Uppdatera listan med inlägg efter skapandet
-        this.diaryEntries.push(response.entry); // Lägg till rätt objekt (response.entry)
+        this.diaryEntries.push(response); // Lägg till rätt objekt (response)
         this.newEntry = { title: '', content: '' }; // Återställ formuläret
       },
       error => {
@@ -41,8 +45,13 @@ export class DiaryListComponent implements OnInit {
       }
     );
   }
+  
+  trackById(index: number, entry: any): number {
+  return entry.id; // Eller vilken unik identifierare du har
+}
 
-  viewEntry(entry: any) {
+  // Metod för att navigera till specifikt inlägg
+  viewEntry(entry: { id: number, title: string, content: string }) {
     if (!entry || !entry.id) {
       console.error('Ogiltigt entry eller saknad ID:', entry);
       return;
