@@ -18,8 +18,8 @@ import { RescueComponent } from './courses/rescue-diver';
 import { SpecialityComponent } from './courses/speciality-diver';
 import { MSDComponent } from './courses/master-scuba-diver';
 import { DMComponent } from './courses/divemaster';
-import { DiaryListComponent } from './diary/diary-list';
-import { DiaryEntryComponent } from './diary-entry/diary-entry';
+import { DiaryListComponent } from './home/diary-list';
+import { DiaryEntryComponent } from './home/diary-entry';
 
 
 

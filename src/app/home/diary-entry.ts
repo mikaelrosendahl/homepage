@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core'; 
 import { ActivatedRoute } from '@angular/router';
 import { DiaryService } from '../services/diary.service';
-import { DiaryEntry } from '../models/diary-entry-model';
+import { DiaryEntry } from '../models/diary-entry-model'; // Kontrollera att sökvägen är korrekt
 
 @Component({
   selector: 'app-diary-entry',
@@ -9,7 +9,7 @@ import { DiaryEntry } from '../models/diary-entry-model';
 })
 export class DiaryEntryComponent implements OnInit {
 
-  diaryEntry: DiaryEntry | undefined;  // Använd DiaryEntry-typen
+  diaryEntry: DiaryEntry | undefined;
 
   constructor(
     private route: ActivatedRoute,
@@ -27,6 +27,7 @@ export class DiaryEntryComponent implements OnInit {
     this.diaryService.getEntryById(id).subscribe(
       (entry: DiaryEntry) => {
         this.diaryEntry = entry;
+        console.log('Inlägg hämtat:', this.diaryEntry); // För att verifiera att vi får data
       },
       error => {
         console.error('Fel vid hämtning av inlägget:', error);
@@ -34,4 +35,3 @@ export class DiaryEntryComponent implements OnInit {
     );
   }
 }
-
