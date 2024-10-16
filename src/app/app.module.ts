@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home';
 import { AboutComponent } from './home/about';
+import { BlogComponent } from './home/blog';
 import { CoursesComponent } from './home/courses';
 import { PageNotFoundComponent } from './pagenotfound';
 import { FooterComponent } from './footer';
@@ -39,6 +40,7 @@ import { DiaryEntryComponent } from './home/diary-entry';
     AppComponent,
     HomeComponent,
     AboutComponent,
+    BlogComponent,
     CoursesComponent,
     PageNotFoundComponent,
     FooterComponent,

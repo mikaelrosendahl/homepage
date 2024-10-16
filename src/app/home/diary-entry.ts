@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core'; 
 import { ActivatedRoute } from '@angular/router';
 import { DiaryService } from '../services/diary.service';
-import { DiaryEntry } from '../models/diary-entry-model'; // Kontrollera att sökvägen är korrekt
+import { DiaryEntry } from '../models/diary-entry-model'; 
 
 @Component({
   selector: 'app-diary-entry',
