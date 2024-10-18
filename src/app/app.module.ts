@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home';
 import { AboutComponent } from './home/about';
+import { BlogComponent } from './home/blog';
 import { CoursesComponent } from './home/courses';
 import { PageNotFoundComponent } from './pagenotfound';
 import { FooterComponent } from './footer';
@@ -28,7 +29,9 @@ import { AOComponent } from './courses/ao-course';
 import { RescueComponent } from './courses/rescue-diver';
 import { SpecialityComponent } from './courses/speciality-diver';
 import { MSDComponent } from './courses/master-scuba-diver';
-import { DiaryListComponent } from './diary/diary-list';
+import { DiaryListComponent } from './home/diary-list';
+import { DiaryEntryComponent } from './home/diary-entry';
+import { TextEditorComponent } from './text-editor';
 
 
 
@@ -38,6 +41,7 @@ import { DiaryListComponent } from './diary/diary-list';
     AppComponent,
     HomeComponent,
     AboutComponent,
+    BlogComponent,
     CoursesComponent,
     PageNotFoundComponent,
     FooterComponent,
@@ -56,7 +60,9 @@ import { DiaryListComponent } from './diary/diary-list';
     RescueComponent,
     SpecialityComponent,
     MSDComponent,
-    DiaryListComponent 
+    DiaryListComponent,
+    DiaryEntryComponent,
+    TextEditorComponent 
    
   
 
