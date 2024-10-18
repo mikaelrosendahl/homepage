@@ -9,7 +9,7 @@ import { DiaryService } from '../services/diary.service';
 export class DiaryListComponent implements OnInit { 
 
   diaryEntries: any[] = [];
-  newEntry: any = { title: '', content: '' }; // Variabel för nytt inlägg
+  //newEntry: any = { title: '', content: '' }; // Variabel för nytt inlägg
 
   constructor(private diaryService: DiaryService, private router: Router) {}
 
@@ -30,21 +30,6 @@ export class DiaryListComponent implements OnInit {
     );
   }
 
-  // Metod för att skapa ett nytt inlägg via DiaryService
-  createEntry() {
-    this.diaryService.createEntry(this.newEntry).subscribe(
-      (response: any) => {
-        console.log('Inlägg skapat:', response);
-        // Uppdatera listan med inlägg efter skapandet
-        this.diaryEntries.push(response); // Lägg till rätt objekt (response)
-        this.newEntry = { title: '', content: '' }; // Återställ formuläret
-      },
-      error => {
-        console.error('Fel vid skapande av inlägg:', error);
-        console.log('Detaljer om svaret:', error.error);
-      }
-    );
-  }
   
   trackById(index: number, entry: any): number {
   return entry.id; // Eller vilken unik identifierare du har
