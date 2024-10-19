@@ -19,10 +19,10 @@
                             </button>
                             <div class="collapse navbar-collapse justify-content-left ps-4">
                                 <ul class="navbar-nav gap-4">
-                                    <li class="nav-item">
+                                   <!-- <li class="nav-item">
                                         <a class="nav-link" routerLink="/" aria-label="Home">{{'MENU.HOME' |
                                             translate}}</a>
-                                    </li>
+                                    </li>>-->
                                     <li class="nav-item">
                                         <a class="nav-link" routerLink="/about" aria-label="About">{{'MENU.ABOUT' |
                                             translate}}</a>
@@ -31,14 +31,15 @@
                                         <a class="nav-link" routerLink="/blog" aria-label="Blog">{{'MENU.BLOG' |
                                             translate}}</a>
                                     </li>  
-                                    <li class="nav-item">
+                                    <!-- TO DO: rename link and move to blog
+                                     <li class="nav-item">
                                         <a class="nav-link" routerLink="/courses" aria-label="Courses">{{'MENU.COURSES'
                                             | translate}}</a>
-                                    </li>
-                                    <li class="nav-item">
+                                    </li>-->
+                                  <!-- <li class="nav-item">
                                         <a class="nav-link" routerLink="/contact" aria-label="Contact">{{'MENU.CONTACT'
                                             | translate}}</a>
-                                    </li>
+                                    </li>--> 
                                 </ul>
                             </div>
                             <div class="d-flex justify-content-left gap-2 pe-4">
@@ -46,9 +47,6 @@
                                     aria-label="Select language">{{ currentLanguage }}
                                     <span class="fa-solid fa-globe nav-globe"></span>
                                 </button>
-                                <!-- <a class="nav-link" routerLink="/login" aria-label="Login">{{'MENU.LOGIN' |
-                                    translate}}</a>
-                                        Visa inloggningsstatus -->
                                 <div *ngIf="isLoggedIn; else loggedOut">
                                     <span>Välkommen, {{ username }}</span>
                                     <a class="nav-link" routerLink="/logout" aria-label="Logout">{{'MENU.LOGOUT' |
@@ -91,10 +89,7 @@
 
     </html>
 </nav>
-<app-diary-list></app-diary-list>
-<app-discover></app-discover>
-<app-our-courses></app-our-courses>
-<app-about-us></app-about-us>
-<app-contact-us></app-contact-us>
-<app-footer></app-footer>
+
+<!--<app-about-us></app-about-us>-->
+<!--<app-footer></app-footer>-->
 <router-outlet></router-outlet>

@@ -19,7 +19,6 @@ import { AboutUsComponent } from './about-us';
 import { ContactComponent } from './home/contact';
 import { ReactiveFormsModule } from '@angular/forms';
 import { CreateUserComponent } from './home/create-user';
-import { ContactUsComponent } from './contact-us';
 import { OurCoursesComponent } from './our-courses';
 import { OWComponent } from './courses/ow-course';
 import { AOComponent } from './courses/ao-course';
@@ -48,7 +47,6 @@ import { DiaryEntryComponent } from './home/diary-entry';
     AboutUsComponent,
     ContactComponent,
     CreateUserComponent,
-    ContactUsComponent,
     OurCoursesComponent,
     OWComponent,
     AOComponent,

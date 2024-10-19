@@ -6,7 +6,6 @@ import { CoursesComponent } from './home/courses';
 import { PageNotFoundComponent } from './pagenotfound';
 import { LoginComponent } from './home/login';
 import { CreateUserComponent } from './home/create-user';
-import { DiscoverComponent } from './discover';
 import { ContactUsComponent } from './contact-us';
 import { ContactComponent } from './home/contact';
 import { OWComponent } from './courses/ow-course';
@@ -31,7 +30,6 @@ const routes: Routes = [
   { path: 'contact-us', component: ContactUsComponent},
   { path: 'login', component: LoginComponent },
   { path: 'create-user', component: CreateUserComponent },
-  { path: 'discover', component: DiscoverComponent },
   { path: 'ow-course', component: OWComponent },
   { path: 'ao-course', component: AOComponent },
   { path: 'rescue-diver', component: RescueComponent},
@@ -42,8 +40,6 @@ const routes: Routes = [
   { path: 'diary-entry', component: DiaryEntryComponent }, // Lista över alla inlägg
   { path: 'diary/:id', component: DiaryEntryComponent }, // Visar ett specifikt inlägg
   { path: '', redirectTo: '/diary', pathMatch: 'full' },
-
-
   { path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page 
 ];
 
