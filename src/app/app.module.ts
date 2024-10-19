@@ -31,7 +31,8 @@ import { SpecialityComponent } from './courses/speciality-diver';
 import { MSDComponent } from './courses/master-scuba-diver';
 import { DiaryListComponent } from './home/diary-list';
 import { DiaryEntryComponent } from './home/diary-entry';
-import { TextEditorComponent } from './text-editor';
+
+
 
 
 
@@ -62,7 +63,8 @@ import { TextEditorComponent } from './text-editor';
     MSDComponent,
     DiaryListComponent,
     DiaryEntryComponent,
-    TextEditorComponent 
+   
+   
    
   
 
