@@ -21,7 +21,7 @@ import { DMComponent } from './courses/divemaster';
 import { DiaryListComponent } from './home/diary-list';
 import { DiaryEntryComponent } from './home/diary-entry';
 import { BlogComponent } from './home/blog';
-import { TextEditorComponent } from './text-editor';
+
 
 
 
@@ -46,7 +46,6 @@ const routes: Routes = [
   { path: 'diary', component: DiaryListComponent }, // Lista över alla inlägg
   { path: 'diary-entry', component: DiaryEntryComponent }, // Lista över alla inlägg
   { path: 'diary/:id', component: DiaryEntryComponent }, // Visar ett specifikt inlägg
-  { path: 'text-editor', component: TextEditorComponent },
   { path: '', redirectTo: '/diary', pathMatch: 'full' },
 
 
