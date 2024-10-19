@@ -36,6 +36,7 @@ import { TextEditorComponent } from './text-editor';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -62,7 +63,8 @@ import { TextEditorComponent } from './text-editor';
     MSDComponent,
     DiaryListComponent,
     DiaryEntryComponent,
-    TextEditorComponent 
+    TextEditorComponent
+   
    
   
 
