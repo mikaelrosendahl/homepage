@@ -14,11 +14,8 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslationLoaderService } from './services/translation-loader.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import { ExploreComponent } from './explore';
 import { DiscoverComponent } from './discover';
-import { TravelComponent } from './travel';
 import { AboutUsComponent } from './about-us';
-import { CaroselComponent } from './carosel';
 import { ContactComponent } from './home/contact';
 import { ReactiveFormsModule } from '@angular/forms';
 import { CreateUserComponent } from './home/create-user';
@@ -47,11 +44,8 @@ import { DiaryEntryComponent } from './home/diary-entry';
     PageNotFoundComponent,
     FooterComponent,
     LoginComponent,
-    ExploreComponent,
     DiscoverComponent,
-    TravelComponent,
     AboutUsComponent,
-    CaroselComponent,
     ContactComponent,
     CreateUserComponent,
     ContactUsComponent,

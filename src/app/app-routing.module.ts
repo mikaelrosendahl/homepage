@@ -3,13 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home';
 import { AboutComponent } from './home/about';
 import { CoursesComponent } from './home/courses';
-
 import { PageNotFoundComponent } from './pagenotfound';
 import { LoginComponent } from './home/login';
 import { CreateUserComponent } from './home/create-user';
 import { DiscoverComponent } from './discover';
-import { ExploreComponent } from './explore';
-import { TravelComponent } from './travel';
 import { ContactUsComponent } from './contact-us';
 import { ContactComponent } from './home/contact';
 import { OWComponent } from './courses/ow-course';
@@ -41,8 +38,6 @@ const routes: Routes = [
   { path: 'speciality-diver', component: SpecialityComponent},
   { path: 'master-scuba-diver', component: MSDComponent},
   { path: 'divemaster', component: DMComponent },
-  { path: 'explore', component: ExploreComponent },
-  { path: 'travel', component: TravelComponent },
   { path: 'diary', component: DiaryListComponent }, // Lista över alla inlägg
   { path: 'diary-entry', component: DiaryEntryComponent }, // Lista över alla inlägg
   { path: 'diary/:id', component: DiaryEntryComponent }, // Visar ett specifikt inlägg
