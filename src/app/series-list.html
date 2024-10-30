@@ -1,0 +1,15 @@
+<div *ngIf="seriesList && seriesList.length > 0; else noSeries">
+    <h2>Tillgängliga Serier</h2>
+    <ul class="series-list">
+        <li *ngFor="let series of seriesList" class="series-item">
+            <h3>{{ series.title }}</h3>
+            <p>{{ series.description }}</p>
+        </li>
+    </ul>
+</div>
+
+<ng-template #noSeries>
+    <p>Inga serier tillgängliga för tillfället.</p>
+</ng-template>
+
+<app-series-list></app-series-list>

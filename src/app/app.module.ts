@@ -27,6 +27,7 @@ import { SpecialityComponent } from './courses/speciality-diver';
 import { MSDComponent } from './courses/master-scuba-diver';
 import { DiaryListComponent } from './home/diary-list';
 import { DiaryEntryComponent } from './home/diary-entry';
+import { SeriesListComponent } from './series-list.component';
 
 
 
@@ -55,6 +56,7 @@ import { DiaryEntryComponent } from './home/diary-entry';
     MSDComponent,
     DiaryListComponent,
     DiaryEntryComponent,
+    SeriesListComponent,
    
    
    
