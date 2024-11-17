@@ -17,7 +17,15 @@ export class DiaryListComponent implements OnInit {
   ngOnInit() {
     this.loadDiaryEntries();
   }
-
+  
+  generatePreview(content: string, limit: number): string {
+    // Skapa en kort förhandsvisning baserat på textinnehållet (utan att förstöra HTML)
+    const div = document.createElement('div');
+    div.innerHTML = content; // Tolka HTML
+    const textContent = div.textContent || ''; // Extrahera endast text
+    return textContent.length > limit ? textContent.slice(0, limit) + '...' : textContent;
+  }
+  
   // Hämta alla inlägg från DiaryService
   loadDiaryEntries() {
     this.diaryService.getAllEntries().subscribe(

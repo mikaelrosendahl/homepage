@@ -3,8 +3,11 @@
   <ul>
     <li *ngFor="let entry of diaryEntries; trackBy: trackById" (click)="viewEntry(entry)">
       <strong>{{ entry.title }}</strong> - <em>{{ entry.date | date: 'short' }}</em>
-      <p>{{ entry.content | slice:0:100 }}... <a (click)="viewEntry(entry)">Läs mer</a></p>
+      <!-- Rendera formaterat HTML-innehåll -->
+      <p [innerHTML]="entry.content | slice: 0:100"></p>
+      <a (click)="viewEntry(entry)">Läs mer</a>
     </li>
   </ul>
 </div>
+
 
